@@ -1,0 +1,67 @@
+/*
+Theme Name: Gear
+version: 1.2.4
+Author: <a href="http://www.mymobiles.com">My Mobiles</a> 
+RTL localization & Farsi Language : Hamed Malek <a href="http://www.parsish.com">Parsish</a> 
+Farsi WordPress Patch : WP-Persian (www.wp-persian.com)
+*/
+.intro .intro-wrapper {
+background-position:right;
+padding-right:80px;
+padding-left:0px;
+}
+.slogan ,.search #s{
+font-family:tahoma;
+font-size:11px;
+direction:rtl;
+}
+.menu-wrapper ,.menu-wrapper .first ,.menu-wrapper li{
+float:right;
+}
+.menu-wrapper li a {
+font-family:tahoma;
+font-size:12px;
+}
+.banner p {
+font-family:tahoma;
+font-size:13px;
+}
+.info .date ,.info .author , .info .comment ,.info .cat ,.info .tag{
+background-position:right;
+padding-right:20px;
+}
+.info span {
+font-family:tahoma;
+font-size:11px;
+padding-left:0px;
+}
+p ,.items ul ,.sidebar ul, .sidebar ol {
+font-family:tahoma;
+font-size:12px;
+text-align:justify;
+}
+.items ul li {
+background-position:right;
+padding-right:21px;
+padding-left:0px;
+}
+.sidebar ul li {
+background-position:right;
+padding-right:18px;
+padding-left:0px;
+}
+.sidebar h3 ,p, .items ul, .sidebar ul, .sidebar ol ,.span-24, div.span-24 {
+direction:rtl;
+}
+.tp span, .tp span a ,.com-header .tp{
+direction:rtl;
+text-align:right;
+}
+small {
+font-size:10px;
+}
+.paddings {
+direction:rtl;
+font-family:tahoma;
+font-size:11px;
+}

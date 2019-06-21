@@ -1,0 +1,573 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: jc <chapuisjeremy@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: campaign/single.php:29
+#: campaign/archive.php:30
+#: campaign/index.php:27
+#: campaign/search.php:28
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#. Text in function
+#: campaign/archive.php:66
+#: campaign/index.php:63
+#: campaign/search.php:65
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entrées précédentes"
+
+#. Text in echo
+#: campaign/comments.php:86
+msgid "(required - never shared)"
+msgstr "(Requis - jamais partagé)"
+
+#. Text in echo
+#: campaign/comments.php:81
+msgid "(required)"
+msgstr "(Requis)"
+
+#. Text in function
+#: campaign/single.php:29
+#: campaign/archive.php:30
+#: campaign/index.php:27
+#: campaign/search.php:28
+msgid "0 Comments"
+msgstr "0 Commentaires"
+
+#. Text in function
+#: campaign/single.php:29
+#: campaign/archive.php:30
+#: campaign/index.php:27
+#: campaign/search.php:28
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:159
+msgid "1/2 Column"
+msgstr "1/2 colonne"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:155
+msgid "1/3 Column"
+msgstr "1/3 de colonne"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:157
+msgid "1/4 Column"
+msgstr "1/4 de colonne"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:156
+msgid "2/3 Column"
+msgstr "2/3 de colonne"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:158
+msgid "3/4 Column"
+msgstr "3/4 de colonne"
+
+#. Text in function
+#: campaign/functions.php:505
+msgid "A widget that will display a specified user&#39;s gravatar, display name, bio, and link to their author post archive."
+msgstr "Widget qui présente un utilisateur en particulier que l'on selectionnera (gravatar, nom, bio, et liens vers les archives de l'auteur)"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:181
+msgid "Alert Message"
+msgstr "Message d'alerte"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:207
+msgid "Alignment"
+msgstr "Alignement"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Arbitrary text or HTML along with a button."
+msgstr "Texte arbitraire ou HTML + bouton"
+
+#. Text in echo
+#: campaign/single.php:32
+#: campaign/archive.php:33
+#: campaign/index.php:30
+#: campaign/search.php:31
+msgid "Author"
+msgstr "Auteur"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Blue"
+msgstr "Bleu"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Button Color:"
+msgstr "Couleur du bouton :"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Button Link (including http):"
+msgstr "Lien du bouton (inclus le http) :"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Button Text:"
+msgstr "texte du bouton :"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:142
+msgid "Buttons"
+msgstr "Boutons "
+
+#. Text in echo
+#: campaign/footer.php:43
+msgid "Campaign Theme"
+msgstr "Thème \"Campaign\""
+
+#. Text in function
+#: campaign/comments.php:108
+msgid "Cancel reply"
+msgstr "Annuler la réponse"
+
+#. Text in echo
+#: campaign/single.php:36
+#: campaign/archive.php:37
+#: campaign/index.php:34
+#: campaign/search.php:35
+msgid "Category"
+msgstr "Catégorie"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:149
+msgid "Column Text"
+msgstr "Colone de texte"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:153
+msgid "Column Width"
+msgstr "Largeur de la colone"
+
+#. Text in echo
+#: campaign/comments.php:103
+msgid "Comment"
+msgstr "Commentaire"
+
+#. Text in echo
+#: campaign/single.php:28
+#: campaign/archive.php:29
+#: campaign/index.php:26
+#: campaign/search.php:27
+msgid "Comments"
+msgstr "Commentaires"
+
+#. Text in function
+#: campaign/single.php:29
+#: campaign/archive.php:30
+#: campaign/index.php:27
+#: campaign/search.php:28
+msgid "Comments Closed"
+msgstr "Commentaires fermés"
+
+#. Text in echo
+#: campaign/comments.php:57
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Company:"
+msgstr "Entreprise :"
+
+#. Text in echo
+#: campaign/footer.php:43
+msgid "Design Crumbs"
+msgstr "Design Crumbs"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Displays a testimonial along with a name, company, and URL."
+msgstr "Témoignage avec nom, entreprise et URL."
+
+#. Text in function
+#: campaign/functions.php:938
+#: campaign/functions.php:949
+msgid "Edit"
+msgstr "Editer"
+
+#. Text in echo
+#: campaign/comments.php:86
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: campaign/functions.php:456
+msgid "Extra profile information"
+msgstr "Informations de profil supplémentaires"
+
+#. Text in function
+#: campaign/functions.php:505
+msgid "Featured User"
+msgstr "Utilisateur vedette"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Gray"
+msgstr "Gris"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:164
+#: campaign/includes/shortcodes/button_popup.php:187
+#: campaign/includes/shortcodes/button_popup.php:215
+msgid "Insert"
+msgstr "Insérer"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:140
+msgid "Layout"
+msgstr "Disposition"
+
+#. Text in echo
+#: campaign/comments.php:73
+msgid "Leave Your Comment"
+msgstr "Laissez votre commentaire"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:209
+msgid "Left"
+msgstr "gauche "
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Line 1:"
+msgstr "Ligne 1 :"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Line 2:"
+msgstr "Ligne 2 :"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Line 3:"
+msgstr "Ligne 3 :"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Line 4:"
+msgstr "Ligne 4 :"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Line 5:"
+msgstr "Ligne 5 :"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:202
+msgid "Link (full URL)"
+msgstr "Lien (URL complète)"
+
+#. Text in echo
+#: campaign/comments.php:76
+msgid "Log out"
+msgstr "Déconnexion"
+
+#. Text in echo
+#: campaign/comments.php:76
+msgid "Logged in as"
+msgstr "Enregistré en tant que"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:179
+msgid "Message Type"
+msgstr "Message type "
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:141
+msgid "Messages"
+msgstr "Messages"
+
+#. Text in echo
+#: campaign/functions.php:495
+msgid "My Twitter"
+msgstr "Mon Twitter"
+
+#. Text in echo
+#: campaign/functions.php:497
+msgid "My Website"
+msgstr "Mon site"
+
+#. Text in echo
+#: campaign/comments.php:81
+msgid "Name"
+msgstr "Nom"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Name:"
+msgstr "Nom :"
+
+#. Text in function
+#: campaign/archive.php:67
+#: campaign/index.php:64
+#: campaign/search.php:66
+msgid "Newer Entries &raquo;"
+msgstr "Entrées plus récentes &raquo;"
+
+#. Text in echo
+#: campaign/functions.php:465
+msgid "Please enter your Twitter username without the @."
+msgstr "Merci d'inserrer votre pseudo Twitter sans le @."
+
+#. Text in echo
+#: campaign/404.php:5
+#: campaign/index.php:70
+msgid "Please try one of the links on top."
+msgstr "Merci d'essayer d'essayer les liens du menu."
+
+#. Text in echo
+#: campaign/single.php:24
+#: campaign/archive.php:25
+#: campaign/index.php:22
+#: campaign/search.php:23
+msgid "Post Date"
+msgstr "Date"
+
+#. Text in echo
+#: campaign/archive.php:57
+#: campaign/index.php:54
+msgid "Read More"
+msgstr "Lire la suite"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Red"
+msgstr "Rouge"
+
+#. Text in function
+#: campaign/functions.php:938
+msgid "Reply"
+msgstr "Répondre"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:210
+msgid "Right"
+msgstr "Droite"
+
+#. Text in echo
+#: campaign/searchform.php:3
+msgid "Search"
+msgstr "Rechercher"
+
+#. Text in echo
+#: campaign/search.php:3
+msgid "Search results for"
+msgstr "Résultats de recherche pour "
+
+#. Text in echo
+#: campaign/functions.php:608
+msgid "Select User:"
+msgstr "Selectionner un utilisateur"
+
+#. Text in echo
+#: campaign/comments.php:106
+msgid "Send"
+msgstr "Envoyer"
+
+#. Text in echo
+#: campaign/single.php:40
+#: campaign/archive.php:41
+#: campaign/index.php:38
+#: campaign/search.php:39
+msgid "Share"
+msgstr "Partage"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Slab Text"
+msgstr "Texte de plus en plus gros de ligne en ligne"
+
+#. Text in echo
+#: campaign/archive.php:72
+msgid "Sorry!"
+msgstr "Désolé !"
+
+#. Text in echo
+#: campaign/single.php:73
+msgid "Sorry, no posts matched your criteria"
+msgstr "Désolé aucun articles ne correspondent à ces critères."
+
+#. Text in echo
+#: campaign/404.php:4
+msgid "Sorry, we can't seem to find what you're looking for."
+msgstr "Désolé, essayez une autre recherche"
+
+#. Text in echo
+#: campaign/includes/js/campaignjs.php:105
+msgid "Subscribe To Updates"
+msgstr "Recevez les mises à jour"
+
+#. Text in function
+#: campaign/single.php:60
+msgid "Tagged with "
+msgstr "Tags"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:174
+#: campaign/includes/shortcodes/button_popup.php:197
+msgid "Text"
+msgstr "Texte"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Text headline that forms the area it&#39;s in to make some cool typography."
+msgstr "Titre du texte qui constitue la zone c&#39;est pour faire une typographie fraîche."
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Text with a Button"
+msgstr "texte + bouton"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "The Message:"
+msgstr "Le message :"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "The Testimonial:"
+msgstr "Le témoignage :"
+
+#. Text in echo
+#: campaign/archive.php:74
+msgid "There are no posts in this category yet. Please try another link."
+msgstr "Il n'y a aucun articles dans cette catégorie. merci d'essayer un autre lien. "
+
+#. Text in echo
+#: campaign/comments.php:9
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Cet article est protégé par un mot de passe"
+
+#. Text in echo
+#: campaign/functions.php:487
+msgid "This post was written by"
+msgstr "Ce poste a été rédigé par"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Title (Optional):"
+msgstr "Titre (Optionnel)"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "Title:"
+msgstr "Titre"
+
+#. Text in echo
+#: campaign/functions.php:946
+msgid "Trackback from"
+msgstr "Trackback de "
+
+#. Text in echo
+#: campaign/comments.php:37
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#. Text in echo
+#: campaign/functions.php:461
+msgid "Twitter"
+msgstr "Twitter"
+
+#. Text in function
+#: campaign/functions.php:621
+msgid "URL:"
+msgstr "URL :"
+
+#. Text in echo
+#: campaign/includes/shortcodes/button_popup.php:182
+msgid "Warning Message"
+msgstr "Message d'avertissement"
+
+#. Text in echo
+#: campaign/index.php:69
+msgid "We can't find what you're looking for."
+msgstr "Nous ne trouvons pas ce que vous recherchez"
+
+#. Text in echo
+#: campaign/search.php:73
+msgid "We're sorry, but"
+msgstr "Nous sommes désolé mais"
+
+#. Text in echo
+#: campaign/comments.php:91
+msgid "Website"
+msgstr "Site "
+
+#. Text in echo
+#: campaign/functions.php:602
+msgid "Widget Title:"
+msgstr "Titre du widget"
+
+#. Text in echo
+#: campaign/comments.php:69
+msgid "You must be"
+msgstr "Vous devez être"
+
+#. Text in echo
+#: campaign/includes/js/campaignjs.php:108
+msgid "Your Email"
+msgstr "Votre email"
+
+#. Text in echo
+#: campaign/includes/js/campaignjs.php:107
+msgid "Your Name"
+msgstr "Votre nom"
+
+#. Text in echo
+#: campaign/functions.php:931
+msgid "Your comment is awaiting moderation"
+msgstr "Votre commentaire est en attente de modération. "
+
+#. Text in echo
+#: campaign/functions.php:935
+msgid "at"
+msgstr "à "
+
+#. Text in echo
+#: campaign/footer.php:43
+msgid "by"
+msgstr "par"
+
+#. Text in echo
+#: campaign/comments.php:69
+msgid "logged in"
+msgstr "Enregistré en tant que"
+
+#. Text in echo
+#: campaign/search.php:73
+msgid "returns no results. Please try your search again, or navigate around the site with the links on top."
+msgstr "Aucun résultats. Merci de tenter une autre recherche ou naviguez à travers les catégories du menu. "
+
+#. Text in echo
+#: campaign/functions.php:929
+msgid "says"
+msgstr "dit"
+
+#. Text in echo
+#: campaign/comments.php:69
+msgid "to post a comment"
+msgstr "Pour poster un commentaire"
+

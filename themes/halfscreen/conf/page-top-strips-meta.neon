@@ -1,0 +1,11 @@
+overrideGlobalTopStrip:
+	label: Use these settings
+	type: checkbox
+	default:
+		'Yes':
+			label: 'Yes'
+
+topStripCategory:
+	label: Top Strips Category
+	type: dropdown-categories
+	default: 'top-strip'

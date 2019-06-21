@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('Ubuntu-M-webfont.eot');
+    src: url('Ubuntu-M-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ubuntu-M-webfont.woff') format('woff'),
+         url('Ubuntu-M-webfont.ttf') format('truetype'),
+         url('Ubuntu-M-webfont.svg#UbuntuMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+	font-family:'UbuntuMedium',arial,helvetica,serif;
+}
+
+h1 {
+	margin-bottom: 20px;
+	margin-top:40px;
+	font-size:40px;
+	line-height:40px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	margin-top:35px;
+	font-size:27px;
+	line-height:27px;
+}
+
+h3 {
+	margin-bottom: 15px;
+	margin-top:30px;
+	font-size:20px;
+	line-height:20px;
+}
+
+#donate_now {
+	font-family:'UbuntuMedium',arial,helvetica,serif !important;
+}

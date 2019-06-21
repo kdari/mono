@@ -1,0 +1,694 @@
+generalOptions:
+	title: General Settings
+	menu-title: General Settings
+	tabs:
+		general:
+			title:     General Setting
+			tab-title: General
+			options:
+				Layout: section
+				#################
+				layoutStyle:
+					label: Layout Style
+					type: select
+					default: {
+						wide: {
+							label: Wide
+							checked: true
+						},
+						narrow: {
+							label: Narrow
+						}
+					}
+				ThemeBox: section
+				#################
+				displayThemebox:
+					label: Show Themebox
+					type: checkbox
+					default:
+						enable:
+							label: 'Yes'
+							checked: true
+				Top-Header: section
+				#################
+				logo_text:
+					label: Logo text
+					type: text
+					default: Halfscreen
+				logo_img:
+					label: Logo image
+					type: image-url
+					default: 'design/img/logo.png'
+					skinable: false
+				Footer: section
+				#################
+				footer_text:
+					label: Footer text
+					type: wysiwyg
+					default: '&copy; 2011 Copyright by <a href="http://www.ait-themes.com">AIT-Themes</a>. All rights reserved.'
+					help: 'This text will be displayed in the footer of page'
+				Google Codes: section
+				#################
+				ga_code:
+					label: Google Analytics Tracking Code
+					type: text
+		globals:
+			title:     Globals
+			tab-title: Globals
+			options:
+				Global sections order: section
+				#######################
+				sectionsOrder:
+					type: order
+					default:
+						serviceBoxes: Section A - Service Boxes
+						content: Section B - Content
+						staticText: Section C - Static text
+
+				Top-Strips - Global Settings : section
+				#################
+				globalTopStrips:
+					label: Show Top Strips Category
+					type: dropdown-categories
+					default: top-strip
+				topStripDropdownTime:
+					label: "Dropdown Animation Time ms"
+					type: text
+					default: 200
+				topStripDropdownAnimation:
+					label: "Dropdown Animation Easing"
+					type: select
+					default: {
+						swing: {
+							label: Default
+							checked: true
+						},
+						easeOutBounce: {
+							label: easeOutBounce
+						},
+						easeOutElastic: {
+							label: easeOutElastic
+						},
+						easeOutBack: {
+							label: easeOutBack
+						}
+					}
+				Menu Appearance - Global Settings : section
+				#################
+				displayDescription:
+					label: Display item description
+					type: checkbox
+					default:
+						'true':
+							label: 'Yes'
+							checked: true
+				mainmenu_dropdown_time:
+					label: "Dropdown Animation Time ms"
+					type: text
+					default: 200
+				mainmenu_dropdown_animation:
+					label: "Dropdown Animation Easing"
+					type: select
+					default: {
+						swing: {
+							label: Default
+							checked: true
+						},
+						easeOutBounce: {
+							label: easeOutBounce
+						},
+						easeOutElastic: {
+							label: easeOutElastic
+						},
+						easeOutBack: {
+							label: easeOutBack
+						}
+					}
+				Service-Boxes - Global Settings : section
+				#################
+				enableServiceBoxes:
+					label: Show Service Boxes
+					type: checkbox
+					default:
+						'true':
+							label: 'Yes'
+				globalServiceBoxes:
+					label: Show Service Boxes Category
+					type: dropdown-categories
+					default: all
+				Static Text - Global Settings : section
+				#################
+				staticText:
+					label: Additional page text
+					type: wysiwyg
+				Sidebar options - Global Settings : section
+				#################
+				wrapHomepageSidebars:
+					label: Use wrapped sidebars on Homepage
+					type: checkbox
+					default:
+						'true':
+							label: 'Yes'
+							checked: true
+				wrapSubpageSidebars:
+					label: Use wrapped sidebars on Subpages
+					type: checkbox
+					default:
+						'true':
+							label: 'Yes'
+				wrapPostsSidebars:
+					label: Use wrapped sidebars on Posts
+					type: checkbox
+					default:
+						'true':
+							label: 'Yes'
+				wrapBlogSidebars:
+					label: Use wrapped sidebars on Blog
+					type: checkbox
+					default:
+						'true':
+							label: 'Yes'
+				Footer widgets size - Global Settings: section
+				####################
+				footerWidthFirst:
+					label: "First Widget Width"
+					type: text
+					skinable: true
+					default: 275px
+				footerWidthSecond:
+					label: "Second Widget Width"
+					type: text
+					skinable: true
+					default: 165px
+				footerWidthThird:
+					label: "Third Widget Width"
+					type: text
+					skinable: true
+					default: 225px
+				footerWidthFourth:
+					label: "Fourth Widget Width"
+					type: text
+					skinable: true
+					default: 185px
+				footerWidthFifth:
+					label: "Fifth Widget Width"
+					type: text
+					skinable: true
+					default: 200px
+				footerWidthSixth:
+					label: "Sixth Widget Width"
+					type: text
+					skinable: true
+					default: 200px
+		header:
+			title:     Header Setting
+			tab-title: Header
+			options:
+				Header - Appearances : section
+				#################
+				headerBgColor:
+					label: Background Color
+					type: colorpicker
+					default: '#38afe4'
+					themebox: { label: Header Background, page: all }
+				headerBg:
+					label: Background Pattern
+					type: image-url
+					default: 'design/img/patterns/wood.png'
+					themebox: {
+						label: Header Background Pattern,
+						page: all,
+						{title: Floral, img: design/img/patterns/floral.png, repeat: repeat, x: left, y: top, attach: scroll, color: none}
+					}
+				headerBgImg:
+					label: Background Image
+					type: image-url
+					default: 'design/img/header-bg/blue_gradient.jpg'
+					themebox: {
+						label: Header Background Image,
+						page: all
+						{title: None, img: design/img/header-bg/none.png, repeat: no-repeat, x: left, y: top, attach: scroll}
+						{title: Blue Gradient, img: design/img/header-bg/blue_gradient_2.jpg, repeat: repeat, x: center, y: top, attach: scroll}
+					}
+				headerBgY:
+					label: Vertical Position
+					type: select
+					default: {
+						top: {
+							label: Top
+							checked: true
+						},
+						center: {
+							label: Center
+						},
+						bottom: {
+							label: Bottom
+						}
+					}
+				headerBgX:
+					label: Horizontal Position
+					type: select
+					default: {
+						left: {
+							label: Left
+							checked: true
+						},
+						center: {
+							label: Center
+						},
+						right: {
+							label: Right
+						}
+					}
+				headerBgRepaeat:
+					label: Repeat
+					type: select
+					default: {
+						no-repeat: {
+							label: No Repeat
+						},
+						repeat: {
+							label: Repeat
+							checked: true
+						},
+						repeat-x: {
+							label: Repeat X
+						},
+						repeat-y: {
+							label: Repeat Y
+						}
+					}
+				Header - 3DSlider : section
+				###########################
+				imageWidth:
+					label: "Width of every image (px)"
+					type: text
+					default: 1000
+				imageHeight:
+					label: "Height of every image (px)"
+					type: text
+					default: 400
+				loaderColor:
+					label: "Color of the cubes before the first image appears"
+					type: colorpicker
+					default: '#333333'
+				innerSideColor:
+					label: "Color of the inner slides of the cube when sliced"
+					type: colorpicker
+					default: '#333333'
+				sideShadowAlpha:
+					label: "Slides gets darker when moved away from the front"
+					type: text
+					default: 0.8
+				dropShadowAlpha:
+					label: "Alpha of the drop shadow"
+					type: text
+					default: 0.4
+				dropShadowDistance:
+					label: "Distance of the shadow from the bottom of the image (px)"
+					type: text
+					default: 7
+				dropShadowScale:
+					label: "Scale of the shadow"
+					type: text
+					default: 0.98
+				dropShadowBlurX:
+					label: "Blur of the shadow on the x-axis (px)"
+					type: text
+					default: 10
+				dropShadowBlurY:
+					label: "Blur of the shadow on the y-axis (px)"
+					type: text
+					default: 3
+				menuDistanceX:
+					label: "Distance between two menu items"
+					type: text
+					default: 20
+				menuDistanceY:
+					label: "Distance of the menu from the bottom of the image"
+					type: text
+					default: 58
+				menuColor1:
+					label: "Color of an inactive menu item"
+					type: colorpicker
+					default: '#999999'
+				menuColor2:
+					label: "Color of an active menu item"
+					type: colorpicker
+					default: '#333333'
+				menuColor3:
+					label: "Color of the inner circle of an active menu item"
+					type: colorpicker
+					default: '#FFFFFF'
+				controlSize:
+					label: "Size of the controls, whitch will appear on rollover"
+					type: text
+					default: 100
+				controlDistance:
+					label: "Distance between the controls"
+					type: text
+					default: 20
+				controlColor1:
+					label: "Background color of the controls"
+					type: colorpicker
+					default: '#222222'
+				controlColor2:
+					label: "Font color of the controls"
+					type: colorpicker
+					default: '#FFFFFF'
+				controlAlpha:
+					label: "Alpha of a control, when mouse is not over"
+					type: text
+					default: 0.5
+				controlAlphaOver:
+					label: "Alpha of a control, when mouse is over"
+					type: text
+					default: 0.95
+				controlsX:
+					label: "X-position of the point which aligns the controls (px)"
+					type: text
+					default: 500
+				controlsY:
+					label: "Y-position of the point which aligns the controls (px)"
+					type: text
+					default: 280
+				controlsAlign:
+					label: "Type of alignment from the point [X-position,Y-position]"
+					type: select
+					default: {
+						center: {
+							label: center
+							checked: true
+						},
+						left: {
+							label: left
+						},
+						right: {
+							label: right
+						}
+					}
+				tooltipHeight:
+					label: "Height of the tooltip surface in the menu"
+					type: text
+					default: 31
+				tooltipColor:
+					label: "Color of the tooltip surface in the menu"
+					type: colorpicker
+					default: '#222222'
+				tooltipTextY:
+					label: "Y-distance of the tooltip text field from the top of the tooltip"
+					type: text
+					default: 5
+				tooltipTextStyle:
+					label: "The style of the tooltip text, specified in the CSS file"
+					type: text
+					default: 'P-Italic'
+					help: 'This is the name of the class specified in the css file of the 3D Slider. The options defaultly are: P-Italic, P, H1'
+				tooltipTextColor:
+					label: "Color of the tooltip text"
+					type: colorpicker
+					default: '#FFFFFF'
+				tooltipMarginLeft:
+					label: "Margin of the text to the left end of the tooltip"
+					type: text
+					default: 5
+				tooltipMarginRight:
+					label: "Margin of the text to the right end of the tooltip"
+					type: text
+					default: 7
+				tooltipTextSharpness:
+					label: "Sharpness of the tooltip text (-400 to 400)"
+					type: text
+					default: 50
+				tooltipTextThickness:
+					label: "Thickness of the tooltip text (-400 to 400)"
+					type: text
+					default: -100
+				infoWidth:
+					label: "The width of the info text field"
+					type: text
+					default: 400
+				infoBackground:
+					label: "The background color of the info text field"
+					type: colorpicker
+					default: '#FFFFFF'
+				infoBackgroundAlpha:
+					label: "The alpha of the background of the info text"
+					type: text
+					default: 0.95
+				infoMargin:
+					label: "The margin of the text field in the info section to all slides"
+					type: text
+					default: 15
+				infoSharpness:
+					label: "Sharpness of the info text (-400 to 400)"
+					type: text
+					default: 0
+				infoThickness:
+					label: "Thickness of the info text (-400 to 400)"
+					type: text
+					default: 0
+				autoplay:
+					label: "Number of seconds from one transition to another"
+					type: text
+					default: 5
+				fieldOfView:
+					label: "Field of view (more info in the official Adobe Docs)"
+					type: text
+					default: 45
+appearance:
+	title:     Appearance Settings
+	menu-title: Appearance
+	tabs:
+		colors:
+			title:     Colors
+			tab-title: Colors
+
+			options:
+				Background: section
+				#################
+				htmlBgColor:
+					label: Color
+					type: colorpicker
+					default: '#FFFFFF'
+					themebox: { label: Website Background, page: all }
+				htmlBg:
+					label: Image
+					type: image-url
+					default: ''
+					themebox: {
+						label: Website Background,
+						page: all,
+						{title: Floral, img: design/img/patterns/floral.png, repeat: repeat, x: left, y: top, attach: scroll}
+						{title: Sand, img: design/img/patterns/sand.png, repeat: repeat, x: left, y: top, attach: scroll}
+						{title: Wood, img: design/img/patterns/wood.png, repeat: repeat, x: left, y: top, attach: scroll}
+						{title: Background Bubbles, img: design/img/patterns/bubbles.jpg, repeat: no-repeat, x: center, y: top, attach: fixed}
+						{title: Background Gold-Rock, img: design/img/patterns/gold-rock.jpg, repeat: repeat-x, x: center, y: top, attach: fixed}
+						{title: Background Green-Lights, img: design/img/patterns/green-lights.jpg, repeat: repeat-x, x: center, y: top, attach: scroll}
+					}
+				htmlBgY:
+					label: Vertical Position
+					type: select
+					default: {
+						top: {
+							label: Top
+							checked: true
+						},
+						center: {
+							label: Center
+						},
+						bottom: {
+							label: Bottom
+						}
+					}
+				htmlBgX:
+					label: Horizontal Position
+					type: select
+					default: {
+						left: {
+							label: Left
+							checked: true
+						},
+						center: {
+							label: Center
+						},
+						right: {
+							label: Right
+						}
+					}
+				htmlBgRepaeat:
+					label: Repeat
+					type: select
+					default: {
+						no-repeat: {
+							label: No Repeat
+						},
+						repeat: {
+							label: Repeat
+							checked: true
+						},
+						repeat-x: {
+							label: Repeat X
+						},
+						repeat-y: {
+							label: Repeat Y
+						}
+					}
+				htmlBgAttach:
+					label: Attachment
+					type: select
+					default: {
+						scroll: {
+							label: Scroll
+						},
+						fixed: {
+							label: Fixed
+						}
+					}
+				Top-Header : section
+				#################
+				headerTopBgColor:
+					label: Top Background Color
+					type: colorpicker
+					default: ''
+					themebox: { label: Top Header Color, page: all }
+				headerSeparatorColor:
+					label: Separator Color
+					type: colorpicker
+					default: '#f2f2f2'
+					themebox: { label: Separator, page: all }
+				Service-Boxes: section
+				#################
+				servicesBgColor:
+					label: Background Color
+					type: colorpicker
+					default: '#FFFFFF'
+				Content: section
+				#################
+				contentBgColor:
+					label: Background Color
+					type: colorpicker
+					default: '#FFFFFF'
+					themebox: { label: Content Color, page: all}
+				linesColor:
+					label: Lines Color
+					type: colorpicker
+					default: '#ececec'
+					themebox: { label: Lines Color, page: all }
+				Products: section
+				#################
+				productsBgColor:
+					label: Background Color
+					type: colorpicker
+					default: '#F6F6F6'
+					themebox: { label: Products, page: all }
+				Footer: section
+				#################
+				footerPatternColor:
+					label: Background Color
+					type: colorpicker
+					default: '#222222'
+					themebox: { label: Footer background, page: all }
+				footerPattern:
+					label: Pattern
+					type: image-url
+					default: 'design/img/patterns/wood.png'
+					themebox: {
+						label: Footer pattern,
+						page: all,
+						{title: Floral, img: design/img/patterns/floral.png, repeat: repeat, x: left, y: top, attach: scroll}
+					}
+				footerTopBorderColor:
+					label: Top Border Color
+					type: colorpicker
+					default: '#5E5E5E'
+					themebox: { label: Footer Top Border, page: all }
+		fonts:
+			title:     Fonts
+			tab-title: Fonts
+			options:
+				Font family for titles and menu: section
+				####################
+				fancyFont:
+					label: Titles and Menu Font
+					type: font
+					default: 'Swiss721 Cn'
+					themebox: {label: Titles & Menu font, page: all}
+				Font colors: section
+				#################
+				generalFontColor:
+					label:  General Text Color
+					type: colorpicker
+					default: '#959595'
+					themebox: {label: General Font Color, page: all}
+				firstTitlesFontColor:
+					label: H1 Titles Font Color
+					type: colorpicker
+					default: '#333333'
+					themebox: {label: H1 Titles Font, page: all}
+				titlesFontColor:
+					label:  Titles Font Color
+					type: colorpicker
+					default: '#38afe4'
+					themebox: {label: Titles Font, page: all}
+				menusTitleColor:
+					label: Main Menu Title Color
+					type: colorpicker
+					default: '#FFFFFF'
+					themebox: {label: Main Menu Title Color, page: all}
+				menusSubtitleColor:
+					label: Main Menu SubTitle Color
+					type: colorpicker
+					default: '#111111'
+					themebox: {label: Main Menu SubTitle Color, page: all}
+				linksFontColor:
+					label: Links Font Color
+					type: colorpicker
+					default: '#38afe4'
+					themebox: {label: Links Font, page: all}
+				sliderTitlesFontColor:
+					label: Slider Titles Color
+					type: colorpicker
+					default: '#ffffff'
+					themebox: {label: Slider titles, page: all}
+				footerTitlesFontColor:
+					label: Footer Titles Color
+					type: colorpicker
+					default: '#38afe4'
+					themebox: {label: Footer Titles, page: all}
+				footerTextFontColor:
+					label: Footer Text Color
+					type: colorpicker
+					default: '#BBBBBB'
+					themebox: {label: Footer Text, page: all}
+				footerLinksFontColor:
+					label: Footer Links Color
+					type: colorpicker
+					default: '#FFFFFF'
+					themebox: {label: Footer Links, page: all}
+		customCss:
+			title: Custom CSS
+			tab-title: Custom CSS
+			options:
+				Your custom CSS: section
+				########################
+				customCss:
+					type: custom-css
+					default: '/* your custom CSS in LESS syntax */'
+				LESS variables for images: section
+				########################
+				customImages:
+					type: custom-css-vars
+					skinable: true
+					default: [
+						[
+							variable: {
+								label: Image name
+								type: text
+							},
+							value: {
+								label: Image
+								type: image-url
+							}
+						]
+					]

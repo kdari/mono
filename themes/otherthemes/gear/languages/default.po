@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Default\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-17 16:08+0200\n"
+"PO-Revision-Date: 2009-04-17 16:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: MyMobiles Web Team <contact@mymobiles.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;ngettext\n"
+"X-Poedit-Basepath: \\wordpress\\wp-content\\themes\\gear\n"
+"X-Poedit-SearchPath-0: \\wordpress\\wp-content\\themes\\gear\n"
+
+#: \wordpress\wp-content\themes\gear/comments.php:11
+msgid "This post is password protected. Enter the password to view comments"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:25
+#, php-format
+msgid "%s responses to"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:25
+#: \wordpress\wp-content\themes\gear/comments.php:65
+#: \wordpress\wp-content\themes\gear/head.php:16
+msgid "RSS icon"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:40
+#, php-format
+msgid "%s Trackbacks &#47; Pingbacks"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:50
+#: \wordpress\wp-content\themes\gear/comments.php:107
+msgid "Comments are closed"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:64
+msgid "No responses to"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:64
+msgid "One response to"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:64
+msgid "% responses to"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:77
+#: \wordpress\wp-content\themes\gear/functions.php:288
+#: \wordpress\wp-content\themes\gear/functions.php:319
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:81
+#: \wordpress\wp-content\themes\gear/functions.php:292
+#: \wordpress\wp-content\themes\gear/functions.php:323
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:81
+#: \wordpress\wp-content\themes\gear/functions.php:292
+#: \wordpress\wp-content\themes\gear/functions.php:323
+#: \wordpress\wp-content\themes\gear/item.php:10
+msgid "F jS, Y"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:81
+#: \wordpress\wp-content\themes\gear/functions.php:292
+#: \wordpress\wp-content\themes\gear/functions.php:323
+msgid "H:i"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:82
+#: \wordpress\wp-content\themes\gear/functions.php:293
+#: \wordpress\wp-content\themes\gear/functions.php:324
+#: \wordpress\wp-content\themes\gear/item.php:29
+msgid "Edit"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:118
+msgid "Leave a reply"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:129
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:143
+msgid "Logged in as"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:143
+msgid "Log out of this account"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:143
+msgid "Log out"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:149
+msgid "Name"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:149
+#: \wordpress\wp-content\themes\gear/comments.php:152
+msgid "(required)"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:152
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:155
+msgid "Website"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/comments.php:169
+msgid "Submit Comment"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/footer.php:3
+msgid "Powered by"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/footer.php:4
+msgid "Designed by"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:22
+msgid "Search"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:43
+msgid "Theme's width"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:51
+msgid "Background"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:71
+msgid "Header's background"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:80
+msgid "Exclude pages from the header<br /> (just put ids '20, 4, 15' (no quotes))"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:85
+msgid "Logo visibility"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:93
+msgid "Email's icon visibility"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:101
+msgid "Search visibility"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:109
+msgid "First menu item's visibility"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:115
+msgid "Label of the first menu item"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:120
+msgid "Banner's visibility"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:128
+msgid "Banner's backgrounud"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:141
+msgid "Banner's image"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:154
+msgid "Banner's text"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/functions.php:210
+msgid "settings"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/head.php:18
+msgid "Email icon"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/head.php:20
+msgid "Home icon"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/head.php:35
+msgid "A link to home page"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/header.php:20
+msgid "Category &raquo; "
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/header.php:23
+msgid "Tag &raquo; "
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/header.php:26
+msgid "Search results &raquo; "
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/index.php:30
+#: \wordpress\wp-content\themes\gear/single.php:38
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/index.php:31
+#: \wordpress\wp-content\themes\gear/single.php:39
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/item.php:5
+msgid "Permanent Link to"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/item.php:10
+msgid "Posted on"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/item.php:13
+msgid "No comments"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/item.php:13
+msgid "1 comment"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/item.php:13
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/item.php:13
+msgid "comments"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/item.php:19
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/missing.php:1
+msgid "Not Found"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/missing.php:4
+msgid "Sorry, but you are looking for something that is not here"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/sidebar.php:8
+msgid "Calendar"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/sidebar.php:15
+msgid "Archives"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/sidebar.php:24
+msgid "Recent Articles"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/sidebar.php:35
+msgid "Links"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/sidebar.php:44
+msgid "Categories"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/sidebar.php:53
+msgid "Meta"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/sidebar.php:55
+msgid "Entries (RSS)"
+msgstr ""
+
+#: \wordpress\wp-content\themes\gear/sidebar.php:56
+msgid "Comments (RSS)"
+msgstr ""
+

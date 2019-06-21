@@ -1,0 +1,11 @@
+/*
+Theme Name: Twentytwelve Invert Header
+THEME URI: http://kdari.com/
+Description: inverts the header and menu to more closely look like 2010 themes. Also adds init cap capability.
+VERSION: 1.0
+Author: Matthew Gedeon
+TAGS: invert, twentytwelve
+Template: twentytwelve
+*/
+
+@import url("../twentytwelve/style.css");

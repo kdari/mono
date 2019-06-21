@@ -1,0 +1,8 @@
+largeImage:
+	label: 'Large image'
+	type: image-url
+	default: "#"
+	
+description:
+	label: 'Description'
+	type: text

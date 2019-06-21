@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+#accordion{font-size:0.85em;width:65%;}
+#accordion table{margin:0;}
+#accordion td, #accordion td{padding:5px;}
+#accordion .ui-accordion-content{padding: 1em 1.4em;overflow:visible !important;}
+
+.colorpickertr td{position:relative}
+.colorpickertr td .colorpicker-container{background:none repeat scroll 0 0 #EEEEEE;border:1px solid #CCCCCC;position:absolute;z-index:100;display:none;}
+span.errmsg{color:red;display:none}

@@ -1,0 +1,8 @@
+	<?php if ( !is_user_logged_in() ) { ?>
+			&nbsp;
+    <h4 style="margin-top:150px;color:black;font-size:40px;">Coming soon!</h4>
+&nbsp;
+<p style="color:black;font-size:20px;">This website is currently under construction. To reach our school's website please go to <a style="display:inline;color:#00a;" href="http://myccca.com/">myccca.com.</a> We hope to be up and running with a new website soon. To contact the church, call 662-895-9568, or email info@crosscreekfwb.com</p>
+
+
+<?php die(); } ?>

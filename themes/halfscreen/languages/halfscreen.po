@@ -1,0 +1,1216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Halfscreen 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-14 12:17+0100\n"
+"PO-Revision-Date: 2011-11-14 12:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: ait-themes.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wp.halfscreen.ait.sk\\wp-content\\themes\\halfscreen\n"
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:30
+msgid "Reply"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:41
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:42
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/image.php:89
+msgid "Pages:"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:61
+msgid ", "
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:55
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:67
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:77
+msgid "Leave a reply"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:77
+msgid "<b>1</b> Reply"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:77
+msgid "<b>%</b> Replies"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/content.php:80
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/image.php:40
+msgid "Edit"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:141
+msgid "Featured Image"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:149
+msgid "Top Strips Page Settings"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:157
+msgid "Static text"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:165
+msgid "Header Page Settings"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:173
+msgid "Service Boxes Page Settings"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:237
+msgid "Primary Menu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:238
+msgid "Footer Menu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:276
+msgid "Homepage Widget Area 1"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:286
+msgid "Homepage Widget Area 2"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:297
+msgid "Subpages Sidebar"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/functions.php:308
+msgid "Footer Widgets Area"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/image.php:19
+msgid "&larr; Previous"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/image.php:20
+msgid "Next &rarr;"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/image.php:30
+#, php-format
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:176
+msgid "Options"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:231
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:232
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:235
+msgid "Admin Branding"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:240
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:241
+msgid "Skins"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:244
+#, php-format
+msgid "Skins for %s"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:249
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:250
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:253
+msgid "Backup"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:434
+msgid "Options was successfully imported."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:438
+msgid "There was a problem importing your options. Please Try again."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:442
+msgid "You can't import options from <code>"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:446
+msgid "There was a problem importing your options. Content of your backup file is invalid."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:449
+#, php-format
+msgid "Please note that this backup manager backs up only your Theme Options and Admin Branding Options and not your content. To backup your content, please use the %sWordPress Export Tool%s."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:600
+msgid "Skin was activated."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:604
+msgid "There was a problem with activating your skin. Maybe skin file .ait-skin is missing."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:608
+msgid "Skin file is corrupted. Skin can't be activated."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:648
+#, php-format
+msgid "You don't have any skins now. You can <a href=\"%s\">create your own</a> or <a href=\"%s\">upload</a> some skins."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:710
+#, php-format
+msgid "Back to <em>%s</em>"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:810
+#, php-format
+msgid "Skin with folder name <code>%s</code> already exists. Please choose other name."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:817
+#, php-format
+msgid "Skin folder <code>%s</code> can not be created."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:861
+#, php-format
+msgid "Skin config file \"%s\" can not be created."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:870
+#, php-format
+msgid "Skin data file \"%s\" can not be created."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:874
+#, php-format
+msgid "Your new skin \"%s\" has been successfully created. You can download it by clicking on Download button."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:962
+#, php-format
+msgid "Can't delete skin folder <code>%s</code>. Delete it by yourself."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-admin.php:965
+#, php-format
+msgid "Skin folder <code>%s</code> doesn't exists."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-theme-options-form.php:371
+msgid "All"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/ait-theme-options-form.php:372
+msgid "None"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/dashboard/ait-dashboard-functions.php:93
+msgid "Dashboard"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/dashboard/ait-dashboard-functions.php:94
+msgid "Documentation"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/dashboard/ait-dashboard-functions.php:95
+msgid "FAQ"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/dashboard/ait-dashboard-functions.php:96
+msgid "Videos"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/dashboard/ait-dashboard-functions.php:97
+msgid "Support Forum"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/dashboard/ait-dashboard.php:14
+msgid "About us"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/dashboard/ait-dashboard.php:15
+msgid "Awesome themes from AIT Themes"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/dashboard/ait-dashboard.php:16
+msgid "Twitter"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/libs/AitSkinsListTable.php:133
+#, php-format
+msgid ""
+"You are about to activate this skin '%s'\n"
+"  'OK' to activate. 'Cancel' to stop."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/libs/AitSkinsListTable.php:133
+msgid "Use this skin"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/libs/AitSkinsListTable.php:134
+msgid "Download ZIP"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/libs/AitSkinsListTable.php:135
+#, php-format
+msgid ""
+"You are about to delete this skin '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/libs/AitSkinsListTable.php:135
+msgid "Delete"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/libs/AitSkinsListTable.php:144
+#, php-format
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Admin/libs/AitSkinsListTable.php:149
+#, php-format
+msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/ait-functions.php:171
+msgid "Cufon Fonts"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/ait-functions.php:178
+msgid "Google Fonts"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/ait-functions.php:207
+msgid "- select font -"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/load.php:68
+msgid "AIT Themes Admin"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/load.php:69
+msgid "AIT Dashboard"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/default/default-custom-type.php:57
+msgid "Show All "
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:15
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:23
+msgid "Grid-Gallery"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:16
+msgid "Picture"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:17
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:19
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:17
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:17
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:18
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:17
+msgid "Add new"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:18
+msgid "Add new picture"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:19
+msgid "Edit Picture"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:20
+msgid "New Picture"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:21
+msgid "No pictures found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:22
+msgid "No pictures found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:25
+msgid "Manipulating with gallery"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:49
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:49
+msgid "Search Category"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:50
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:50
+msgid "All Gategories"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:51
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:51
+msgid "Parent Category"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:52
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:52
+msgid "Parent Category:"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:53
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:53
+msgid "Edit Category"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:54
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:54
+msgid "Update Gategory"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:57
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:57
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:57
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:57
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:55
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:57
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:57
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:57
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:57
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:55
+msgid "Add New Category"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:58
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:58
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:58
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:58
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:56
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:58
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:58
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:58
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:58
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:56
+msgid "New Category Name"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:76
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:102
+msgid "Thumbnail"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:84
+msgid "Options for Picture"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:96
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:70
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:96
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:98
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:98
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:96
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:96
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:97
+msgid "Title"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:97
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:71
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:97
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:102
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:102
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:99
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:97
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:100
+msgid "Image"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:98
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:73
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:98
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:103
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:103
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:86
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:103
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:100
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:100
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:93
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:101
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:86
+msgid "Order"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/gallery/gallery.php:99
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:99
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:104
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:104
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:101
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:102
+msgid "Category"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:17
+msgid "Home boxes"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:18
+msgid "Home box"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:20
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:18
+msgid "Add new box"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:21
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:19
+msgid "Edit box"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:22
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:20
+msgid "New box"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:23
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:21
+msgid "No boxes found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:24
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:22
+msgid "No boxes found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:25
+msgid "Home Boxes"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:27
+msgid "Manipulating with home boxes on homepage"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:57
+msgid "Options for featured box"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:72
+msgid "Big box?"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:74
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:100
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:101
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:100
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:98
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:101
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:92
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:99
+msgid "Link"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:92
+msgid "Yes"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/home-box/home-box.php:94
+msgid "No"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:15
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:23
+msgid "Icon-Sets"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:16
+msgid "Icon-Set"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:18
+msgid "Add new Set"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:19
+msgid "Edit Set"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:20
+msgid "New Set"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:21
+msgid "No Sets found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:22
+msgid "No Sets found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:25
+msgid "Manipulating with icon sets"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:76
+msgid "Icon"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon/icon.php:84
+msgid "Options for Icon-Set"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:15
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:23
+msgid "Icon Menu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:16
+msgid "icon-menu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:17
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:18
+msgid "Add new icon menu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:19
+msgid "Edit icon"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:20
+msgid "New icon"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:21
+msgid "No icons found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:22
+msgid "No icons found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:25
+msgid "Manipulating with icon menu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:76
+msgid "Icon Menu image"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:85
+msgid "Options for Icon Menu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:99
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:99
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:97
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:98
+msgid "Text"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/icon-menu/icon-menu.php:101
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:101
+msgid "Label"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:16
+msgid "Portfolios"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:17
+msgid "Portfolio Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:18
+msgid "Add New"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:19
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:20
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:21
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:20
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:21
+msgid "New Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:22
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:21
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:22
+msgid "View Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:23
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:22
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:23
+msgid "Search Items"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:24
+msgid "No Portfolio Items found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:25
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:24
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:25
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:24
+msgid "No items found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:77
+msgid "Portfolio Item Thumbnail"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:99
+msgid "Portfolio Item Name"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:100
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:89
+msgid "Type"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/portfolio/portfolio.php:104
+msgid "Portfolio Category"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:15
+msgid "Presentations"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:16
+msgid "Picture Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:17
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:18
+msgid "Add New Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:18
+msgid "Add New Picture Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:19
+msgid "Edit Picture Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:23
+msgid "No Picture Items found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:85
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:88
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:85
+msgid "Item Name"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:87
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:94
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:87
+msgid "Slider Category"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/presentation/presentation.php:117
+msgid "Image Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:15
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:23
+msgid "Products"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:16
+msgid "product"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:17
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:18
+msgid "Add new product"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:19
+msgid "Edit product"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:20
+msgid "New product"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:21
+msgid "No products found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:22
+msgid "No products found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:25
+msgid "Manipulating with products"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:76
+msgid "Product image"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/product/product.php:85
+msgid "Options for product"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:15
+msgid "Service boxes"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:16
+msgid "Service box"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:23
+msgid "Service-Boxes"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:25
+msgid "Manipulating with service boxes"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:76
+msgid "Icon for box"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/service-box/service-box.php:84
+msgid "Options for service box"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:16
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:24
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:16
+msgid "Sliders"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:17
+msgid "Slider"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:19
+msgid "Add new slide"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:20
+msgid "Edit slide"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:21
+msgid "New slide"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:22
+msgid "No slides found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:23
+msgid "No slides found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:26
+msgid "Manipulating with slides and sliders"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:54
+msgid "Search Slider"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:55
+msgid "All Sliders"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:56
+msgid "Edit Slider"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:57
+msgid "Update Slider"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:58
+msgid "Add New Slider"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:59
+msgid "New Slider Name"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:75
+msgid "Slide Image"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:83
+msgid "Options for slide"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:98
+msgid "Slider Type"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider/slider.php:99
+msgid "Caption"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:17
+msgid "Slider Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:19
+msgid "Add New Slider Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:20
+msgid "Edit Slider Item"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:24
+msgid "No Slider Items found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:90
+msgid "Top Image"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/slider-creator/slider-creator.php:91
+msgid "Background Image"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:15
+msgid "Top strips"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:16
+msgid "Top strip"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:18
+msgid "Add new strip"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:19
+msgid "Edit strip"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:20
+msgid "New strip"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:21
+msgid "No strips found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:22
+msgid "No strips found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:23
+msgid "Top-Strips"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:25
+msgid "Manipulating with top strips"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:76
+msgid "Icon for strip"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/top-strip/top-strip.php:84
+msgid "Options for top strip"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:16
+msgid "Video"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:17
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:18
+msgid "Add New Video"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:19
+msgid "Edit Video"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:20
+msgid "New Video"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:21
+msgid "View Video"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:22
+msgid "Search Videos"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:23
+msgid "No Video Items found"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/CustomTypes/video/video.php:117
+msgid "Thumbnail Image"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Shortcodes/custom/ait-custom.php:11
+msgid "top"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Shortcodes/sitemap/ait-sitemap.php:59
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/ThemeBox/ThemeBox.php:321
+msgid "Colors Settings"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/ThemeBox/ThemeBox.php:322
+msgid "Background images"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/ThemeBox/ThemeBox.php:323
+msgid "Font"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/ThemeBox/ThemeBoxAjax.php:39
+msgid "Settings succesfully saved. Wheee ^_^"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/ThemeBox/ThemeBoxAjax.php:42
+msgid "I could not save the settings. Change some values or please try again."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-flickr-widget.php:17
+msgid "Display flickr images"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-flickr-widget.php:21
+msgid "Theme &rarr; Flickr"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-flickr-widget.php:129
+msgid "RSS"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-flickr-widget.php:134
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:143
+msgid "Number of posts"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-flickr-widget.php:138
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:165
+msgid "Thumbnail width"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-flickr-widget.php:143
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:170
+msgid "Thumbnail height"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:18
+msgid "Customize displaying posts"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:22
+msgid "Theme &rarr; Posts"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:97
+msgid "read more"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:104
+msgid "No posts"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:148
+msgid "Excerpt length"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:155
+msgid "Show read more"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:161
+msgid "Show thumbnails"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-post-widget.php:175
+msgid "Thumbnail position"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-submenu-widget.php:15
+msgid "Show submenu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-submenu-widget.php:19
+msgid "Theme &rarr; Submenu"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-twitter-widget.php:88
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-twitter-widget.php:90
+msgid "Y/m/d"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-twitter-widget.php:92
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-twitter-widget.php:92
+msgid "Y/m/d H:i:s"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-twitter-widget.php:264
+msgid "Save"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/Widgets/ait-twitter-widget.php:278
+msgid "Theme &rarr; Twitter"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:34
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:56
+msgid "Edit This"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:275
+msgid "Home"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:299
+#, php-format
+msgid "Category: \"%s\""
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:357
+#, php-format
+msgid "Posts tagged &quot;%s&quot;"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:362
+#, php-format
+msgid "Author: &quot;%s&quot;"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:365
+msgid "Error 404"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:368
+#, php-format
+msgid "Search results for &quot;%s&quot;"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/WpLatteFunctions.php:375
+msgid "Page"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/AIT/Framework/WpLatte/Entities/WpLattePostEntity.php:233
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/ait-cache/_Nette.FileTemplate/_Templates.general-content-nav.php-7925123f25786f1cd55adba2c8732771.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/ait-cache/_Nette.FileTemplate/_Templates.general-content-nav.php-7925123f25786f1cd55adba2c8732771.php:23
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/ait-cache/_Nette.FileTemplate/_Templates.snippet-post-nav.php-b4a1beca3eaf42a736972d2c782a1d7b.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: C:\wamp\www\wp.halfscreen.ait.sk\wp-content\themes\halfscreen/ait-cache/_Nette.FileTemplate/_Templates.snippet-post-nav.php-b4a1beca3eaf42a736972d2c782a1d7b.php:23
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+

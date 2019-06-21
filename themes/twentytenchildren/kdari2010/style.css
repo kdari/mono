@@ -1,0 +1,31 @@
+/*
+THEME NAME: Kdari Twenty Ten
+THEME URI: http://kdari.com/
+DESCRIPTION: This theme is a variant of the Twenty Ten theme. It adds custom functionality.
+VERSION: 1.0
+AUTHOR: Luke Gedeon
+AUTHOR Uri: http://luke.gedeon.name/
+TAGS: custom, twentyten
+TEMPLATE: twentyten
+*/
+@import url('../../twentyten/style.css');
+
+#site-title {
+    width: 640px;
+}
+#site-description {
+    width: 300px;
+    text-align: right;
+}
+
+/*	Make Single column layout full-width	*/
+.page-template-onecolumn-page-php #container,
+.page-template-onecolumn-page-php #content,
+.page-template-no-page-title-NS-php #container,
+.page-template-no-page-title-NS-php #content {
+margin:0 0 0 0;
+}
+
+.one-column #content {
+    width: 100%;
+}

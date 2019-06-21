@@ -1,0 +1,117 @@
+/*  
+Theme Name: chronicles
+Theme URI: http://www.blogohblog.com
+Description: A chocolate colored Wordpress Theme by <a href="http://www.blogohblog.com" title="Free WordPress Themes">Blog Oh! Blog</a> - Widget Ready, 3 Columns, Dark Brown, Rounded Edges, Web 2.0. This WordPress theme is categorized under a Creative Commons License.
+Version: 1.0
+Author: Jai Nischal Verma
+Author URI: http://www.blogohblog.com
+*/
+
+/**************** Body *********************/
+*{margin:0;padding:0;}
+body {background-color:#211100; font:13px Trebuchet MS;}
+#wrapper {width:950px; margin:50px auto;}
+#main {background-color:#FFFFCC; padding:5px; width:940px; padding-bottom:20px;}
+
+/**************** Search Bar *********************/
+#searchbar {height:50px; color:#FFFFFF;}
+#searchtext {width:232px; height:35px; background:url(images/searchbar.gif) no-repeat left;}
+#ls {width:220px; border:none; background-color: #FFFFCC; margin-top:9px; margin-left:5px;}
+
+/**************** Header *********************/
+#header {margin-top:5px;}
+#header_left_top{width:726px; height:5px; background:url(images/topper.gif) left bottom no-repeat;}
+#header_left{width:726px; height:80px; background-color:#3C2E1F; float:left;}
+#subscribe{width:179px; height:40px; padding-top:20px; margin-left:10px; float:left;}
+#header_right{width:224px; float:left; margin-bottom:10px;}
+#header_right h1 a {color:#fff; text-decoration:none; padding-left:10px; font:25px Trebuchet MS; letter-spacing:-2px;}
+
+/**************** Navigation *********************/
+#navigation {padding-left:10px; margin-left:10px; margin-right:10px; margin-top:30px; float:right; }
+#menu ul{list-style-type: none;margin: 0;padding: 0;}
+#menu ul li{float:left;margin: 0 5px 0 0;height: 22px;overflow: hidden;display: inline;}
+#menu ul li a{display: block;padding: 2px 10px 10px;text-decoration: none;color:#FFFFFF;text-decoration: none;}
+#menu ul li a:hover{ color:#CCCCCC;}
+#menu ul li.current_page_item{background: #594D40 url(images/tab_right.gif) no-repeat right top;}
+#menu ul li.current_page_item a{background: url(images/tab_left.gif) no-repeat;color:#fff;}
+
+/**************** Sidebars *********************/
+#sidebar1{width:231px;  background-color:#211100; float:left;}
+#sidebar1_top {width:231px; height:5px; background:url(images/sidebarl_top.gif) bottom left no-repeat;}
+#sidebar1 h2{ font-size:12px; color: #FFFFFF; background:url(images/sidebarl_cat.gif) left no-repeat; width:213px; height:28px; text-transform:uppercase; padding-left:10px; padding-top:5px;}
+#sidebar1 a{color:#CCCCCC; text-decoration:none;}
+#sidebar1 a:hover{color:#F7931E;}
+#sidebar1 ul{list-style-type:none;}
+#sidebar1 ul li{list-style-type:none;margin-left:7px;margin-top:20px;}
+#sidebar1 ul li ul{font-style:normal;list-style-type:none;margin-top:10px;padding:0px;}
+#sidebar1 ul li ul li{border:0;display:block;margin:0 0px 5px;padding:0 0 5px 20px;}
+#sidebar1 p{padding:0 5px;}
+#sidebar1_bottom {width:231px; height:5px; background:url(images/sidebarl_bottom.gif) top left no-repeat;}
+
+#sidebar2{width:200px;  background-color:#d3cfa3; float:left;}
+#sidebar2_top {width:200px; height:5px; background:url(images/sidebarr_top.gif) bottom left no-repeat;}
+#sidebar2 h2{ font-size:12px; color: #ffffff; background:url(images/sidebarr_cat.gif) left no-repeat; width:185px; height:28px; text-transform:uppercase; padding-left:10px; padding-top:5px;}
+#sidebar2 a{color:#211100; text-decoration:none;}
+#sidebar2 a:hover{color: #000000;}
+#sidebar2 ul{list-style-type:none;}
+#sidebar2 ul li{list-style-type:none;margin-left:5px;margin-top:20px;}
+#sidebar2 ul li ul{font-style:normal;list-style-type:none;margin-top:10px;padding:0px;}
+#sidebar2 ul li ul li{border:0;display:block;margin:0 0px 5px;padding:0 0 5px 10px;}
+#sidebar2 p{padding:0 5px;}
+#sidebar2_bottom {width:200px; height:5px; background:url(images/sidebarr_bottom.gif) top left no-repeat;}
+
+/**************** Links *********************/
+a:link, a:visited{color: #392C1F;text-decoration:none;}
+a:hover{color: #666666;}
+
+/**************** Blog Entry *********************/
+#blog {width:505px; float:left;}
+.post_title{float:left; width:400px; padding-bottom:10px;}
+.date {height:63px; width:57px; background:url(images/date.gif) left no-repeat;color:#ffffff; font-size:12px; text-align:center; padding-top:25px; float:left;}
+.posted { color:#666666; padding-left:11px; font-weight:bold;}
+.entry h2{font-weight:normal; padding-top:10px; padding-left:10px;  text-align:left; font-size:26px; letter-spacing:-2px;}
+.entry h2 a{text-decoration:none; color:#000000;}
+.entry h2 a:hover {color: #333333;}
+.tags { padding-bottom:5px; margin-bottom:10px; font-size:11px; border-bottom:1px solid #CDC9AB;}
+.entry p{padding:0 0 10px 0;}
+.post{padding:0px 15px 0px 15px;text-align:justify; margin-bottom:20px;}
+html>body .entry ul { margin-left: 0px; padding: 0 0 0 30px; list-style: none; padding-left: 10px; text-indent: -10px; } 
+html>body .entry li { margin: 7px 0 8px 10px; }
+.entry ul li:before{ content: "\00BB \0020"; }
+.entry ol { padding: 0 0 0 35px; margin: 0; }
+.entry ol li { margin: 0; padding: 0; }
+.meta {background:url(images/meta.gif) left no-repeat; width:476; height:43px; padding-left:15px; padding-top:35px; font-size:11px; color:#FFFFFF;}
+.meta a, .meta a:visited {color: #CC9900; text-decoration: none;}
+h2.search {font-size:16px; color:#211100; letter-spacing:3px;}
+
+/**************** Comments *********************/
+#comments {font-size:13px; font-weight:lighter; padding-top:10px; border-top:1px solid #CCCCCC; margin-top:10px;}
+.commentlist{padding:20px;}
+.commentlist p{font-size:11px; padding-top:5px;}
+#author, #email, #url {width:12em;font-size:11px; color:#666666;font-weight:bold;padding:3px; margin-right:5px; border:1px solid #211100;}
+#submit{font:bold 0.8em Tahoma;margin-bottom:15px;margin-top:5px;padding:2px;}
+#respond{padding-top:20px;padding-bottom:10px; font-weight:lighter;}
+#comment{width:70%;border:1px solid #211100;font:13px Tahoma;color:#666666;font-weight:bold;}
+h3 #comments {font-size:13px;}
+#commentform h2 {font-size:14px; font-weight:normal;}
+
+/**************** Misc *********************/
+acronym, abbr, span.caps { cursor: help; }
+acronym, abbr { border-bottom: 1px dashed #999; }
+blockquote { margin: 15px 30px 0 10px; padding-left: 20px; border-left: 5px double #993300; }
+blockquote cite { margin: 5px 0 0; display: block; }
+.center { text-align: center; }
+hr { display: none; }
+a img { border: none; }
+.alignright{float:right;padding-right:20px;}
+.alignleft{float:left; padding-left:20px;}
+img.centered{display:block;margin-left:auto;margin-right:auto;}
+img.alignright{display:inline;margin:0 0 2px 7px;padding:4px;}
+img.alignleft{display:inline;margin:0 7px 2px 0;padding:4px;}
+pre {border: solid 1px #9a9a9a;color: blue;margin: 10px;padding:10px;background: #f3f2ed}
+code {font-size:1.0em;color:#000;}
+
+/**************** Footer *********************/
+#footer {height:31px; background: url(images/footer.gif) center no-repeat; color:#FFFFFF; font-size:11px;}
+#footer a{color:#CCCCCC;}
+#copyright { padding-left:10px; padding-top:6px;}

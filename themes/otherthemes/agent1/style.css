@@ -1,0 +1,750 @@
+/*
+Theme Name: Agent
+Theme URI: http://www.excelnetmedia.com
+Description: Developed for Real Estate
+Version: 1
+Author: Jeffrey Horen
+Author URI: http://www.excelnetmedia.com
+*/
+
+/* -------------------[ Global Reset ]------------------- */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5; margin-bottom: 10px;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/* -------------------[ Layout ]------------------- */
+body {
+	background: #fff url("images/bg_body.jpg") repeat-x; 
+	color: #333;
+	font: 76% arial,sans-serif;
+	text-align:center;
+}
+#header {
+	background: url("images/bg-header.jpg") repeat-x; 
+	border-top: 4px solid #4e89a2; 
+	border-bottom: 1px solid #4e89a2;
+	height: 69px;
+	position:relative; 
+}
+#header-left {
+	float: left; 
+	padding-left: 10px; 
+	text-align: left;
+}
+#header-right {
+	float: right; 
+	padding-right: 10px; 
+	text-align: right;
+}
+#header-image {
+	background: url("images/header-image.jpg") no-repeat; 
+	border-bottom: 9px solid #fff; 
+	height: 190px;
+}
+.logo {
+	margin-top: 5px;
+}
+#container{
+	background: url("images/bg-content.jpg") repeat-y;
+	margin:0 auto; 
+	text-align:left;
+	width:950px;
+}
+#wrapper {
+	float:left; width:100%;
+}
+#content {
+	margin: 0 240px; 
+	padding: 5px 5px;
+}
+#sidebar-left {
+	float:left;
+	margin-left:-945px;
+	padding-top: 4px;
+	width:220px;
+}
+#sidebar-right {
+	float:left;
+	margin-left:-225px;
+	padding-top: 4px;
+	width:220px;
+}
+#footer { 
+	background: #fff;
+	border-top: 10px solid #4e89a2; 
+	border-bottom: 1px solid #d1dfe9;
+	clear:left; 
+	color: #999;
+	height: 25px;
+	line-height: 2em;
+	padding: 5px; font-size: 11px; 
+}
+.addressfooter {
+	float: left;
+}
+.copyright {
+	float: right;
+}
+.left_img {
+	border: 1px solid #c0c0c0;
+	float: left; 
+	margin: 5px 5px 0 0; 
+	padding: 2px; 
+}
+		
+/* -------------------[ Typography ]------------------- */
+h1, h2, h3, h4, h5, h6 {
+	color:#404040; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	margin-bottom: 1.25em;
+}
+h1 {
+	font-size:1.7em;	
+}
+h2 {
+	font-size:1.6em;
+	margin: 1.25em 0;
+}
+#listing-container h2 {
+	background: #f2f2f2;
+	border: 1px solid #ccddcc;
+	padding: 4px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+h3 {
+	font-size:1.4em;
+	margin: 1.25em 0;
+}
+h4 {
+	font-size:1.2em;
+}
+h5 {
+	font-size:1em;
+}
+h6 {
+	font-size:1em;
+}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+/* Controls page and post titles */
+h1.title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* Controls Blog Name typography */
+h1.blogname {
+	font-family: "Trebuchet MS", Arial, sans-serif; 
+	font-size: 30px; 
+	margin: 5px 0 0 0; 
+	text-align: left;
+}
+h1.blogname a {
+	color: #fafafa;
+} 
+h1.blogname a:hover {
+	color: #fafafa;
+}
+/* Controls Blog Description typography */
+.blogdescription {
+	color: #efefef;
+	font: 16px trebuchet ms, arial, sans-serif; 
+	line-height: normal; 
+	margin: 0;
+} 
+h3#comments {
+	padding: 0; 
+	margin: 20px 0 0 0;
+}
+.small {
+	color: #945618;
+}
+.small a:link, .small a:active, .small a:visited {
+	color:#945618; 
+	text-decoration:none;
+}
+.small a:hover {
+	color:#333; 
+	text-decoration:underline;
+}
+.view:link, .view:visited{
+	background: transparent url("images/eye.png") 0 50% no-repeat;
+	font-size: 1.1em;
+	padding-left: 20px;
+}
+p {
+	margin:0 0 1.5em;
+}
+a:focus, a:hover {
+	color:#cc6666;
+}
+a {
+	color:#cc6666;
+	text-decoration:none;
+}
+
+/* -------------------[ Sidebars ]------------------- */
+#sidebar-left a, #sidebar-left a:link, #sidebar-left a:visited { 
+	color: #cc6666;
+}
+
+#sidebar ul, #sidebar-right ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#sidebar ul ul, #sidebar-right ul ul, .prop-box-featured, .textwidget {
+	background:#fff;
+	border:1px solid #d5d5d5;
+	margin: 0;
+	padding: 0;
+	border-bottom:0;
+}
+#sidebar-left ul ul ul, #sidebar-right ul ul ul {
+	background:transparent;
+	border:0;
+	padding: 0;
+}
+#sidebar-left ul ul ul ul, #sidebar-right ul ul ul ul {
+	background:transparent;
+	border:0;
+	padding: 0 0 0 10px;
+	}
+#sidebar-left li, #sidebar-right li {
+	list-style-type: none;
+	margin: 0 0 10px;
+	padding:0 ;
+	}
+#sidebar-left li li, #sidebar-right li li {
+	list-style-type: none;
+	margin: 0;
+	padding:2px 10px 2px 14px;
+	background: transparent url(images/arrow-off.gif) 10px 6px no-repeat;
+	border-bottom:1px solid #ddd;
+	}
+#sidebar-left li li li, #sidebar-right li li li {
+	padding:0;
+	border:0;
+	background: transparent;
+	}
+#sidebar-left li li:hover, #sidebar-right li li:hover {
+	background: transparent url(images/arrow-on.gif) 12px 6px no-repeat;
+	}
+#sidebar-left li li li:hover, #sidebar-right li li li:hover {
+	background: transparent;
+	}
+#sidebar-left li .widgettitle, #sidebar-right li .widgettitle, #featuredlistings h2 {
+	background:#4E89A2;
+	border:1px solid #d5d5d5;
+	border-bottom: 0;
+	color:#efefef;
+	font-size:9pt;
+	font-weight:bold;
+	letter-spacing: .12em;
+	margin: 0;
+	padding:5px 10px;
+}
+#sidebar-left .textwidget, #sidebar-right .textwidget {
+	background: #fff;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+}
+#sidebar-left .sidebox, #sidebar-right .sidebox {
+	background:#fff;
+	border:1px solid #d5d5d5;
+	margin: 0;
+	padding: 8px;
+	line-height:1.4em;
+}
+#sidebar-left a:hover, #sidebar-right a:active { 
+	background:transparent; 
+	color:#000; 
+}
+#sidebar-left li#tag-cloud ul, #sidebar-right li#tag-cloud ul {
+	padding: 5px 10px;
+}
+#sidebar-left li#tag-cloud li, #sidebar-right li#tag-cloud li {
+	float:none;
+	display:inline;
+	padding: 0;
+	margin: 0 5px 0 0;
+	border-bottom: 0;
+	background: transparent;
+}
+	
+/* -------------------[ Begin Comments ]------------------- */
+.alt {
+	margin: 0;
+	padding: 10px;
+}
+.commentlist {
+	margin:5px 0px 5px 0px; padding:5px; background-color:#fafafa; border: 1px solid #ccc;
+	text-align: justify;
+}
+.commentlist li {
+	list-style: none;
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+}
+.commentlist p {
+	margin: 10px 5px 10px 0;
+}
+#commentform p {
+	margin: 5px 0;
+}
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+.commentsfeed {
+	background: url("images/rss_round.png") no-repeat left center;
+	padding:5px 5px 5px 20px;
+}
+.trackback {
+	background: url("images/link.png") no-repeat left center;
+	height:30px;
+	padding:5px 5px 5px 20px;
+}
+.commentsicon {
+	background: url("images/comment_blue_trans.gif") 0 50% no-repeat;
+	line-height: 15px;
+	padding:5px 5px 5px 20px;
+}
+.tagsicon {
+	background: url("images/tag_blue.png") 0 15% no-repeat;
+	line-height: 15px;
+	padding:5px 5px 5px 20px;
+}
+.postsicon {
+	background: url("images/article.png") 0 10% no-repeat;
+	line-height: 15px;
+	padding:5px 5px 5px 20px;
+}
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+.commentlist li {
+	font-weight: bold;
+}
+.commentlist li .avatar { 
+	border: 1px solid #eee;
+	background: #fff;
+	float: right;
+	padding: 2px;
+}
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+}
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+}
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+.commentmetadata {
+	font-weight: normal;
+}
+/* End Comments */
+
+/* -------------------[ Posts and Pages ]------------------- */
+.entry {
+	margin-top: 10px;
+}
+html>body .entry ul {
+	list-style: none;
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	padding-left: 10px;
+	text-indent: -10px;
+}
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+}
+.entry ul li:before, #sidebar-left ul ul li:before {
+	content: "\00BB \0020";
+}
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+}
+.entry ol li {
+	margin: 0;
+	padding: 0;
+}
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+}
+.postmetadata {
+	background-color:#FAFAFA;
+	border: 1px solid #E0E0E0; 
+	color:#333;
+	font-size:0.9em; 
+	line-height: 1em;
+	margin:5px 0px 5px 0px; 
+	padding:15px 5px 5px 15px; 
+	text-align:left;
+}
+.postmetadata a:link, .postmetadata a:active, .postmetadata a:visited {
+	color:#945618; 
+	text-decoration:none;
+}
+.postmetadata a:hover {
+	color:#333; 
+	text-decoration:underline;
+}
+.posttitle {
+	margin-bottom: 10px;
+}
+.section {
+	background:#FFFFFF none repeat scroll 0 0;
+	border:1px solid #C0C0C0;
+	margin:0 0 10px;
+	padding:9px;
+}
+
+/* -------------------[ Search Form ]------------------- */
+#searchform {
+	margin: 10px auto;
+	padding: 15px 3px;
+	text-align: left;
+}
+#sidebar-left #searchsubmit {
+	padding: 1px;
+}
+#search-tool-div {
+	margin-top:3px;
+	position: relative;
+}
+.search-top {
+	background: #fafafa;
+	border:#A9A9A9 1px solid;
+	border-top: #0D4636 1px solid;
+	border-left: #0D4636 1px solid;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:4px;
+}
+.search-top:focus {
+	background: #fff;
+	border:#A9A9A9 1px solid;
+	border-top: #0D4636 1px solid;
+	border-left: #0D4636 1px solid;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:4px;
+}
+.submit-search {
+	background-color:#eee; border: 1px solid #0D4636;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: bold;
+	padding:3px;
+}
+
+/* -------------------[ Real Estate Listings ]------------------- */
+#activelistings {
+	clear: left;
+}
+#activelistings h2 {
+	font-size: 1.2em;
+}
+#pendingsales {
+	clear: left;
+}
+#soldlistings {
+	clear: left;
+}
+#gre_map_canvas {
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+}
+#gre_map_multi {
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+}
+#gmap-info {
+	padding: 0;
+	margin: 0;
+}
+#gmap-info h3 {
+	padding: 0;
+	text-align: left;
+	font-size: 14px;
+	margin: 0px 0px 0px 0px;
+}
+#gmap-info .listing-thumb {
+	float: left;
+	padding-right: 5px;
+}
+#gmap-info p {
+	text-align: left;
+	vertical-align: top;
+}
+.adobe-reader img {
+	padding-top: 5px;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+.propdata {
+	background: #F2F2F2;
+	clear: left;
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	border: 1px solid #cdc;
+	padding: 2px;
+	margin-top: 2px;
+	width: 424px;
+}
+.propdata h3 {
+	padding: 0px;
+	margin: 0px;
+}
+.propdata-line div {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.propfeatures {
+	font-weight: bold;
+	color: #34431d;
+}
+.page-propdata-box {
+	clear: left;
+	width: 420px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+.page-blurb {
+	font-weight: bold;
+	color: #34431d;
+	text-align: center;
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+.propdata h3 {
+	font-style: italic;
+}
+.prop-box-featured em {
+	font-size: smaller;
+}
+.wordtube {
+	margin: 0 auto;
+	padding: 10px;
+
+}
+.prop-box, .prop-box-avail {
+	padding: 5px;
+	margin: 10px 5px 5px 0;
+}
+.prop-box-avail {
+	background: #fff;
+	width: 430px;
+	min-height: 75px;
+	display: block;
+	border: 1px solid #cdc;
+}
+.prop-box-avail h2, .prop-box-avail a, .prop-box-avail h3 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 1em;
+}
+.prop-box {
+	background: #ddd;
+	min-height: 80px;
+	width: 300px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.prop-box h2, .prop-box a, .prop-box h3 {
+	padding: 0px;
+	margin: 0px;
+}
+.prop-box-featured {
+	min-height: 80px;
+	display: block;
+	padding: 6px;
+	margin: 0px;
+}
+.prop-box-featured h3 {
+	margin: 2px 0;
+}
+.prop-float-container {
+	width: 300px;
+	display: inline;
+}
+.prop-box em {
+	font-size: smaller;
+}
+
+.prop-thumb {
+	float: left;
+	margin:0 4px 4px 0;
+	padding: 2px;
+	border: 1px solid #c0c0c0;
+	display: block;
+}
+.propwassold {
+	color: red;
+	font-weight: bold;
+}
+.prop-box-featured {
+	border-bottom: 1px solid #d5d5d5;
+}
+.prop-box-featured p {
+	padding: 0; 
+	margin: 0;
+}
+h3 a {
+	font-size: 12px; 
+	line-height: 1;
+	margin: 0;
+}
+.prop-box-featured .pro-thumb {
+	margin: 0;
+}
+/* -------------------[ Real Estate Listings tabs ]------------------- */
+
+#text li {margin-left: 15px;}
+
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .ui-tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .ui-tabs-nav {
+        display: none;
+    }
+}
+
+#tabnav ul {
+	list-style-type: none;
+}
+
+#tabnav li {
+	display: inline;
+}
+#tabnav li a:link, #tabnav a:visited {
+	background: #4E89A2;
+	color: #efefef;
+	margin: 0 0 2px 0;
+	border: 1px solid #d5d5d5;
+	padding: .25em .3em;
+	font-size: 11px;
+	
+}
+#tabnav li a:hover {
+	background: #6ba6be;
+}
+/* -------------------[ Image Alignment and Captions ]------------------- */
+.realtor-logos {
+	text-align: center;
+}
+.realtor-logos img {
+	margin: 15px 15px 0 0;
+}
+.socialicons {
+	margin: 5px;
+}
+.wp-caption-text {
+	font-size:11px;
+	line-height:1.5em;
+	margin-bottom:0;
+}
+img.alignright, .wp-caption.alignright {
+	margin: 0 0 1.571em 1.571em;
+}
+.format_text img.frame, .format_text .wp-caption {
+	border-width:0.071em;
+	padding:0.714em;
+}
+.format_text img.right, .format_text img.alignright, .wp-caption.alignright {
+	margin:0 0 1.571em 1.571em;
+}
+.format_text img.left, .format_text img.alignleft, .wp-caption.alignleft { 
+	margin: 0 1.571em 1.571em 0; 
+}
+.format_text img.center, .format_text img.aligncenter, .wp-caption.aligncenter { 
+	margin: 0 auto 1.571em auto; 
+}
+.format_text img.block, .format_text img.alignnone, .wp-caption.alignnone { 
+	margin: 0 auto 1.571em 0; 
+}
+.wp-caption.alignleft { 
+	float: left; 
+}
+.wp-caption.alignright { 
+	float: right; 
+}
+.wp-caption.aligncenter { 
+	margin-right: auto; 
+	margin-left: auto; 
+	float: none; 
+	clear: both;
+}
+.wp-caption.alignnone { 
+	clear: both; 
+}
+.wp-caption {
+	background-color:#EEEEEE;
+	border: 1px solid #DDDDDD;
+	font-style:italic;
+	text-align:center;
+	padding-top: 5px;
+}
+.format_text img.stack { 
+	margin-left: 1.571em; 
+}
+img.alignleft, img.left { 
+	float: left; 
+	margin: 0 10px 10px 0;
+}
+img.alignright, img.right { 
+	float: right; 
+	margin: 0 0 10px 10px;
+}
+img.aligncenter, img.center { 
+	display: block; 
+	margin-right: auto; 
+	margin-left: auto; 
+	float: none; 
+	clear: both;
+}
+img.alignnone, img.block { 
+	display: block; 
+	clear: both;
+}
+img.frame { 
+	background: #eee; 
+	border-style: solid; 
+	border-color: #ddd; 
+}
+img.stack { 
+	clear: none !important; 
+}

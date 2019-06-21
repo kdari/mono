@@ -1,0 +1,51 @@
+slideBackgroundColor:
+	label: Background color
+	type: colorpicker
+slideRepeating:
+	label: Background Repeat
+	type: select
+	default: {
+		no-repeat: {
+			label: No Repeat
+		},
+		repeat: {
+			label: Repeat
+			checked: true
+		},
+		repeat-x: {
+			label: Repeat X
+		},
+		repeat-y: {
+			label: Repeat Y
+		}
+	}
+slideBackgroundPosX:
+	label: Background Horizontal Position
+	type: select
+	default: {
+		left: {
+			label: Left
+			checked: true
+		},
+		center: {
+			label: Center
+		},
+		right: {
+			label: Right
+		}
+	}
+slideBackgroundPosY:
+	label: Background Vertical Position
+	type: select
+	default: {
+		top: {
+			label: Top
+			checked: true
+		},
+		center: {
+			label: Center
+		},
+		bottom: {
+			label: Bottom
+		}
+	}

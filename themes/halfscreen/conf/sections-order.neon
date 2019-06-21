@@ -1,0 +1,12 @@
+overrideGlobalOrder:
+	label: Use this order
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+order:
+	type: order
+	default:
+		serviceBoxes: Section A - Service Boxes
+		content: Section B - Content
+		staticText: Section C - Static text

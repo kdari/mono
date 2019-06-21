@@ -1,0 +1,6 @@
+boxMoreText:
+	type: disabled
+boxWidth:
+	label: Custom Width
+	type: text
+	help: 'Custom width is an internal value for the width of a box. Final width will be 10px larger, with 28px right padding. Maximum width in one line is 1000px'

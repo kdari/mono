@@ -1,0 +1,61 @@
+
+
+/* BEGIN custom_css */
+h2#postTitle {
+font-size:30px;}
+h1,h2,h3,h4,h5,h2#postTitle {font-weight:bold;/*font-family: 'Revalia', cursive;*/padding-bottom:20px;}
+h2{font-size:30px}
+h3{font-size:25px}
+h4{font-size:20px;}
+
+.entry img {
+max-width:60%;
+}
+
+body,input,textarea {
+color:#373737;
+font:15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:300;
+line-height:1.625;
+}
+
+blockquote {
+font-family:Georgia, "Bitstream Charter", serif;
+font-style:italic;
+font-weight:normal;
+margin:0 3em;
+}
+
+h1,h2,h3,h4,h5,h2#postTitle {
+font-family:inherit;
+}
+#wrapper {
+box-shadow:1px 1px 50px;
+-moz-box-shadow:1px 1px 50px;
+-webkit-box-shadow:1px 1px 50px;
+}
+
+p {
+font-size:14px;
+}
+
+.entry ol,.entry ul {
+font-size:16px;
+}
+
+#navigation {
+box-shadow:0 0 9px lightblue;
+-moz-box-shadow:0 0 9px lightblue;
+-webkit-box-shadow:0 0 9px lightblue;
+margin-top:-19px;
+padding:2px 2px 2px 0;
+}
+
+.entry img {
+box-shadow:0 0 5px lightblue;
+-moz-box-shadow:0 0 5px lightblue;
+-webkit-box-shadow:0 0 5px lightblue;
+margin:10px;
+padding:5px;
+}
+/* END custom_css */

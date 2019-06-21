@@ -1,0 +1,131 @@
+/*
+THEME NAME: Custom for Beacon 10
+THEME URI: http://kdari.com/
+DESCRIPTION: Custom for BeaconChurchRI.com
+VERSION: 1.0
+AUTHOR: Luke and Tabetha Gedeon
+AUTHOR Uri: http://luke.gedeon.name/
+TAGS: custom, twentyten
+TEMPLATE: twentyten
+*/
+@import url('../../twentyten/style.css');
+
+/* The following sections override corresponding sections of the parent theme twentyten */
+
+#wrapper {
+	margin-top: 30px !important;
+}
+
+#container {
+	margin: 0;
+}
+
+#content img {
+	max-width: 940px;
+}
+
+.one-column #content {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.one-column #content img {
+	max-width: 940px;
+}
+
+#header {
+	padding: 10px 0 0 0;
+}
+#site-title {
+	margin: 18px 0 0 0;
+	background-image: url(/files/2010/11/BeaconLogoLite.png);
+	width: 527px;
+	height: 153px;
+	position: absolute;
+}
+#site-title a {
+	margin-left: -9999px !important;
+}
+#site-description {
+	clear: none;
+	float: left;
+	position: absolute;
+/*	margin-left: 560px;
+	width: 340px;
+	background-color: rgba(255,255,255,0.1);
+*/
+	margin-left: 520px;
+	width: 140px;
+	padding: 10px;
+	color: #003;
+	text-align: center;
+}
+#branding img {
+	border: 2px solid #115;
+	width: 936px !important;
+}
+
+#menu-item-1350, #menu-item-1367 {
+	border-left: 2px solid #336;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+#menu-item-1350 ul.sub-menu,
+#menu-item-1367 ul.sub-menu {
+	margin-left: 10px;
+}
+
+#menu-item-1368 {
+	font-style: italic;
+	position: absolute !important;
+	top: 38px;
+	right: 0px;
+}
+
+#access ul ul a {
+	background:#336;
+}
+#access li:hover > a,
+#access ul ul :hover > a {
+	color:#fff;
+	background:#336;
+}
+#access {
+	background: #115;
+	position: relative;
+}
+
+#colophon {
+	border-top: 2px solid #115;
+}
+#footer-widget-area {
+	border-bottom: 1px solid #115;
+	margin-bottom: 10px;
+}
+
+#post-782 #slideshow-wrapper {
+	margin: 0 0 0 10px !important;
+	float: right !important;
+}
+
+#post-782 .entry-title {
+	height: 1px !important;
+	overflow: hidden;
+}
+
+#post-782 h3,
+#post-782 h4 {
+	clear: none !important;
+}
+
+#post-782 h3 a,
+#post-782 h4 a {
+	color: #000 !important;
+}
+
+#post-782 .entry-content {
+	padding: 0 !important;
+	margin-top: -20px;
+}
+

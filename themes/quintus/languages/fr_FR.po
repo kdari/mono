@@ -1,0 +1,275 @@
+# Translation of Quintus in French (France)
+# This file is distributed under the same license as the Quintus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-01 19:25:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Quintus\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/quintus/style.css
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/quintus/full-width-page.php
+msgid "Full-width, no sidebar"
+msgstr "Pleine-Largeur, Sans Sidebar"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/quintus/style.css
+msgid "A theme that has an old-style appeal with semi-academic graciousness and elegant typography. Fitting for displaying either text or images, Quintus offers a fresh look with room for customization, including custom backgrounds, menus, header images, and the option to publish short aside posts."
+msgstr ""
+
+#: single.php:29
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:16
+msgid "Bookmark the <a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Bookmarquez ce <a href=\"%1$s\" title=\"Permalien vers %2$s\" rel=\"bookmark\">permalien</a>."
+
+#: single.php:28
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: searchform.php:9 searchform.php:10 searchform.php:11
+msgid "Search"
+msgstr "Recherche"
+
+#: search.php:50
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Contenu Introuvable. Réessayez en modifiant les termes de recherche."
+
+#: search.php:46
+msgid "Nothing Found"
+msgstr "Aucun Résultat"
+
+#: inc/theme-options.php:108
+msgid "Archaic"
+msgstr "Archaïque"
+
+#: inc/theme-options.php:122
+msgid "Choose a Color"
+msgstr "Choisissez une couleur"
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: inc/theme-options.php:104
+msgid "Default"
+msgstr "Valeur par défaut"
+
+#: inc/theme-options.php:83
+msgid "%s Theme Options"
+msgstr "Options du thème %s"
+
+#: inc/theme-options.php:67 inc/theme-options.php:68
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: inc/theme-options.php:40
+msgid "Color Schemes"
+msgstr ""
+
+#: image.php:93
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Les commentaires et r&eacute;troliens sont ferm&eacute;s."
+
+#: image.php:91
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Les r&eacute;troliens sont ferm&eacute;s, mais vous pouvez <a class=\"comment-link\" href=\"#respond\" title=\"Poster un commentaire\">poster un commentaire</a>"
+
+#: image.php:89
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Les commentaires sont fermés mais vous pouvez laisser une rétrolien : <a class=\"trackback-link\" href=\"%s\" title=\"Adresse de rétrolien pour votre article\" rel=\"trackback\">Adresse de rétrolien</a>."
+
+#: image.php:87
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Poster un commentaire\">Poster un commentaire</a> ou un <a class=\"trackback-link\" href=\"%s\" title=\"URL du r&eacute;trolien\" rel=\"trackback\">r&eacute;trolien</a>."
+
+#: image.php:35
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: image.php:20
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"image-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publié </span> <span class=\"image-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> à <a href=\"%3$s\" title=\"Lien image full-size\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" title=\"Retour %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:34
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: functions.php:229
+msgid "Page %s"
+msgstr "Page %s"
+
+#: functions.php:135
+msgid "Topics"
+msgstr "Sujets"
+
+#: functions.php:72
+msgid "Sidebar 1"
+msgstr "Sidebar 1"
+
+#: functions.php:74
+msgid "This is Quintus' widget sidebar. Leave empty if you want a one column layout."
+msgstr "Voici la sidebar de Quintus. Laissez vide si vous souhaitez une mise en page à une colonne."
+
+#: functions.php:134
+msgid "Blogs I Read"
+msgstr "Je lis ces blogs"
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: footer.php:11
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème %1$s par %2$s."
+
+#: footer.php:11
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: footer.php:11
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Une plate-forme sémantique de publication personnelle"
+
+#: content-single.php:36
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "Cette entrée a été publiée dans %1$s et taguée %2$s."
+
+#: content-single.php:38
+msgid "This entry was posted in %1$s."
+msgstr "Cette entrée a été publiée dans %1$s."
+
+#: content-link.php:52 content-page.php:16 content-single.php:47 content.php:50
+#: image.php:30 image.php:95
+msgid "Edit"
+msgstr "Modifier"
+
+#: content-link.php:51 content.php:48
+msgid "Tagged "
+msgstr "Tagué"
+
+#: content-link.php:50 content.php:47
+msgid "Posted in "
+msgstr "Publié dans"
+
+#: content-link.php:48 content.php:44
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: content-link.php:48 content.php:44
+msgid "1 Comment"
+msgstr ""
+
+#: content-link.php:48 content.php:44
+msgid "Leave a comment"
+msgstr "Poster un commentaire"
+
+#: content-link.php:42 content-page.php:14 content-single.php:29 content.php:38
+#: image.php:81
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-link.php:37 content-link.php:41 content.php:33 content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-link.php:23 content-single.php:17 content.php:19
+msgid "by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\">%3$s</a></span>"
+msgstr "par <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\">%3$s</a></span>"
+
+#: content-link.php:25 content-single.php:19 content.php:21
+msgid "View all posts by %s"
+msgstr "Voir tous les articles par %s"
+
+#: comments.php:35
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:25
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires Plus Récents &rarr;"
+
+#: comments.php:24
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires Pr&eacute;c&eacute;dents"
+
+#: comments.php:23
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: comments.php:14
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un commentaire sur &ldquo;%2$s&rdquo; "
+msgstr[1] "%1$s commentaires sur &ldquo;%2$s&rdquo;"
+
+#: archive.php:47 archive.php:63 index.php:16 index.php:32 search.php:22
+#: search.php:38
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:46 archive.php:62 index.php:15 index.php:31 search.php:21
+#: search.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles Précédents"
+
+#: archive.php:45 archive.php:61 index.php:14 index.php:30 search.php:20
+#: search.php:36 single.php:27
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: archive.php:27 functions.php:136
+msgid "Archives"
+msgstr "Archives"
+
+#: archive.php:25
+msgid "Yearly Archives: %s"
+msgstr "Archives de l'année %s"
+
+#: archive.php:23
+msgid "Monthly Archives: %s"
+msgstr "Archives Mensuelles: %s"
+
+#: archive.php:21
+msgid "Daily Archives: %s"
+msgstr "Archives du %s"
+
+#: archive.php:19
+msgid "Tag Archives: %s"
+msgstr "Archives de Tag: %s"
+
+#: archive.php:17
+msgid "Category Archives: %s"
+msgstr "Archives de Cat&eacute;gorie: %s"
+
+#: archive.php:15
+msgid "Author Archives: %s"
+msgstr "Archives d&rsquo;Auteur: %s"
+
+#: 404.php:31
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Essayez du c&ocirc;t&eacute; des archives mensuelles. %1$s"
+
+#: 404.php:17
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "Il semblerait que nous ne soyons pas en mesure de trouver votre contenu. Essayez en lançant une recherche, ou à l&rsquo;aide de l&rsquo;un des lien ci-dessous."
+
+#: 404.php:24
+msgid "Most Used Categories"
+msgstr "Catégories les plus utilisées"
+
+#: 404.php:13
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "C&rsquo;est plutôt gênant, vous ne trouvez pas&nbsp;?"

@@ -1,0 +1,15 @@
+
+/*----- Search Box -----*/
+
+#search-global, #search-global-form{float:none !important;}
+
+/*----- Main Menu -----*/
+
+.sf-menu .sub-menu{margin-top:10px;margin-left: -20px;padding: 0px !important; border-bottom:5px solid #464F5C}
+
+
+/*----- Carousel -----*/
+
+.carousel li { width: 172px !important;}
+.carousel-wrapper {position: relative;}
+.caroufredsel_wrapper{ width:860px !important;}

@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<multiwp_23_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_default</item_id>
+    <item_title>General</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>1</item_sort>
+  </row>
+  <row>
+    <id>42</id>
+    <item_id>menu</item_id>
+    <item_title>Menu</item_title>
+    <item_desc>&amp;lt;strong&amp;gt;NOTE:&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt;
+The menu navigation is controlled from the &amp;lt;a href=&amp;quot;nav-menus.php&amp;quot;&amp;gt;Menu&amp;lt;/a&amp;gt; page and widgets are controlled from the &amp;lt;a href=&amp;quot;widgets.php&amp;quot;&amp;gt;Widgets&amp;lt;/a&amp;gt; page. &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>2</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>logo</item_id>
+    <item_title>Logo URL</item_title>
+    <item_desc>Enter URL to image file you would like to use for the logo. You can upload your logo from the &amp;lt;a href=&amp;quot;media-new.php&amp;quot;&amp;gt;Upload New Media&amp;lt;/a&amp;gt; page.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>3</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>link_color</item_id>
+    <item_title>Link Color</item_title>
+    <item_desc>&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>4</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>event_cat</item_id>
+    <item_title>Events Category</item_title>
+    <item_desc>Select the parent events category.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>5</item_sort>
+  </row>
+  <row>
+    <id>43</id>
+    <item_id>favicon</item_id>
+    <item_title>Favicon URL (optional)</item_title>
+    <item_desc>Browsers that provide favicon support typically display a page&amp;#039;s favicon in the browser&amp;#039;s address bar and next to the page&amp;#039;s name in a list of bookmarks. &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://en.wikipedia.org/wiki/Favicon&amp;quot;&amp;gt;More info &#x2192;&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>6</item_sort>
+  </row>
+  <row>
+    <id>30</id>
+    <item_id>home_page</item_id>
+    <item_title>Home Page</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>7</item_sort>
+  </row>
+  <row>
+    <id>31</id>
+    <item_id>slider_on</item_id>
+    <item_title>Slider On/Off</item_title>
+    <item_desc>&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On</item_options>
+    <item_sort>8</item_sort>
+  </row>
+  <row>
+    <id>32</id>
+    <item_id>eventure_calendar</item_id>
+    <item_title>Calendar On/Off</item_title>
+    <item_desc>&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On</item_options>
+    <item_sort>9</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>welcome_msg</item_id>
+    <item_title>Welcome Message</item_title>
+    <item_desc>This text appears below the slider on the home page.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>10</item_sort>
+  </row>
+  <row>
+    <id>29</id>
+    <item_id>layout</item_id>
+    <item_title>Layout</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>11</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>sidebar_position</item_id>
+    <item_title>Sidebar Position</item_title>
+    <item_desc>&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</item_desc>
+    <item_type>select</item_type>
+    <item_options>left,right</item_options>
+    <item_sort>12</item_sort>
+  </row>
+  <row>
+    <id>28</id>
+    <item_id>two_column</item_id>
+    <item_title>Two Column Layout</item_title>
+    <item_desc>This will provide a two column layout on full width pages - this setting does not apply to posts or pages with a sidebar.</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On</item_options>
+    <item_sort>13</item_sort>
+  </row>
+  <row>
+    <id>24</id>
+    <item_id>slider</item_id>
+    <item_title>Slider</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>14</item_sort>
+  </row>
+  <row>
+    <id>25</id>
+    <item_id>slider_cat</item_id>
+    <item_title>Slider Category</item_title>
+    <item_desc>&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</item_desc>
+    <item_type>category</item_type>
+    <item_options></item_options>
+    <item_sort>15</item_sort>
+  </row>
+  <row>
+    <id>26</id>
+    <item_id>slider_number</item_id>
+    <item_title>Number of Items</item_title>
+    <item_desc>Enter number of items to display. Example: 10</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>16</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>social_buttons</item_id>
+    <item_title>Social Buttons</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>17</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>rss_on_off</item_id>
+    <item_title>RSS On/Off</item_title>
+    <item_desc></item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>On</item_options>
+    <item_sort>18</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>facebook</item_id>
+    <item_title>Facebook</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>19</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>twitter</item_id>
+    <item_title>Twitter</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>20</item_sort>
+  </row>
+  <row>
+    <id>15</id>
+    <item_id>youtube</item_id>
+    <item_title>YouTube</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>21</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>flickr</item_id>
+    <item_title>Flickr</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>22</item_sort>
+  </row>
+  <row>
+    <id>17</id>
+    <item_id>meetup</item_id>
+    <item_title>Meetup</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>23</item_sort>
+  </row>
+  <row>
+    <id>18</id>
+    <item_id>gplus</item_id>
+    <item_title>Google Plus</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>24</item_sort>
+  </row>
+  <row>
+    <id>19</id>
+    <item_id>vimeo</item_id>
+    <item_title>Vimeo</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>25</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>myspace</item_id>
+    <item_title>MySpace</item_title>
+    <item_desc></item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>26</item_sort>
+  </row>
+  <row>
+    <id>27</id>
+    <item_id>footer</item_id>
+    <item_title>Footer</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>27</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>footer_text</item_id>
+    <item_title>Footer Text</item_title>
+    <item_desc></item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>28</item_sort>
+  </row>
+  <row>
+    <id>39</id>
+    <item_id>google_fonts</item_id>
+    <item_title>Google Fonts</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>35</item_sort>
+  </row>
+  <row>
+    <id>40</id>
+    <item_id>google_api</item_id>
+    <item_title>Google API</item_title>
+    <item_desc>Enter the proper link info provided by &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;google.com/webfonts&amp;quot;&amp;gt;google.com/webfonts&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>36</item_sort>
+  </row>
+  <row>
+    <id>41</id>
+    <item_id>google_keyword</item_id>
+    <item_title>Google Keyword</item_title>
+    <item_desc>Enter the keyword provided by Google for the CSS. For example, if Google provides the following: h1 { font-family: &amp;#039;Gruppo&amp;#039;, arial, serif; }... Gruppo is the keyword.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>37</item_sort>
+  </row>
+  <row>
+    <id>23</id>
+    <item_id>custom</item_id>
+    <item_title>Custom CSS</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>38</item_sort>
+  </row>
+  <row>
+    <id>22</id>
+    <item_id>custom_css</item_id>
+    <item_title>Custom CSS (optional)</item_title>
+    <item_desc></item_desc>
+    <item_type>css</item_type>
+    <item_options>15</item_options>
+    <item_sort>39</item_sort>
+  </row>
+  <row>
+    <id>44</id>
+    <item_id>support</item_id>
+    <item_title>Support</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>44</item_sort>
+  </row>
+  <row>
+    <id>45</id>
+    <item_id>help</item_id>
+    <item_title>Help</item_title>
+    <item_desc>For help with this theme, please use the &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://themolitor.com/help/eventure&amp;quot;&amp;gt;help file&amp;lt;/a&amp;gt; OR the &amp;lt;a target=&amp;quot;_blank&amp;quot; href=&amp;quot;http://themolitor.com/forums&amp;quot;&amp;gt;support forums&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>45</item_sort>
+  </row>
+</multiwp_23_option_tree>

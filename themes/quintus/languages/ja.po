@@ -1,0 +1,274 @@
+# Translation of Quintus in Japanese
+# This file is distributed under the same license as the Quintus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-02 08:57:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Quintus\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/quintus/style.css
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/quintus/full-width-page.php
+msgid "Full-width, no sidebar"
+msgstr "全幅、サイドバーなし"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/quintus/style.css
+msgid "A theme that has an old-style appeal with semi-academic graciousness and elegant typography. Fitting for displaying either text or images, Quintus offers a fresh look with room for customization, including custom backgrounds, menus, header images, and the option to publish short aside posts."
+msgstr ""
+
+#: single.php:29
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:16
+msgid "Bookmark the <a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>."
+msgstr "<a href=\"%1$s\" title=\"%2$s へのパーマリンク\" rel=\"bookmark\">パーマリンク</a>をブックマーク"
+
+#: single.php:28
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: searchform.php:9 searchform.php:10 searchform.php:11
+msgid "Search"
+msgstr "検索"
+
+#: search.php:50
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "ご指定の検索条件に合う投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: search.php:46
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: inc/theme-options.php:108
+msgid "Archaic"
+msgstr ""
+
+#: inc/theme-options.php:122
+msgid "Choose a Color"
+msgstr "色の選択"
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: inc/theme-options.php:104
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/theme-options.php:83
+msgid "%s Theme Options"
+msgstr "%s テーマ設定"
+
+#: inc/theme-options.php:67 inc/theme-options.php:68
+msgid "Theme Options"
+msgstr "テーマオプション"
+
+#: inc/theme-options.php:40
+msgid "Color Schemes"
+msgstr "配色"
+
+#: image.php:93
+msgid "Both comments and trackbacks are currently closed."
+msgstr "コメント・トラックバックは受け付けていません。"
+
+#: image.php:91
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "現在トラックバックは受け付けていませんが、<a class=\"comment-link\" href=\"#respond\" title=\"コメントを投稿\">コメントを投稿</a>できます。"
+
+#: image.php:89
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "現在コメントは受け付けていませんが、トラックバックを送信できます: <a class=\"trackback-link\" href=\"%s\" title=\"あなたの投稿用のトラックバック URL\" rel=\"trackback\">トラックバック URL</a>"
+
+#: image.php:87
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"コメントを投稿\">コメントを投稿</a>するか、トラックバックを送信できます: <a class=\"trackback-link\" href=\"%s\" title=\"この投稿のトラックバック URL\" rel=\"trackback\">トラックバック URL</a>"
+
+#: image.php:35
+msgid "Next &rarr;"
+msgstr "次へ &rarr;"
+
+#: image.php:20
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"image-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">投稿日: </span> <span class=\"image-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> @ <a href=\"%3$s\" title=\"フルサイズ画像へのリンク\">%4$s &times; %5$s</a> | <a href=\"%6$s\" title=\"%7$s へ戻る\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:34
+msgid "&larr; Previous"
+msgstr "&larr; 前へ"
+
+#: functions.php:229
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:135
+msgid "Topics"
+msgstr "トピック"
+
+#: functions.php:72
+msgid "Sidebar 1"
+msgstr "サイドバー 1"
+
+#: functions.php:74
+msgid "This is Quintus' widget sidebar. Leave empty if you want a one column layout."
+msgstr ""
+
+#: functions.php:134
+msgid "Blogs I Read"
+msgstr "購読中のブログ"
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:11
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: footer.php:11
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: footer.php:11
+msgid "A Semantic Personal Publishing Platform"
+msgstr "セマンティックなブログ／CMS プラットフォーム"
+
+#: content-single.php:36
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "カテゴリー: %1$s タグ: %2$s"
+
+#: content-single.php:38
+msgid "This entry was posted in %1$s."
+msgstr "この投稿のカテゴリー: %1$s"
+
+#: content-link.php:52 content-page.php:16 content-single.php:47 content.php:50
+#: image.php:30 image.php:95
+msgid "Edit"
+msgstr "編集"
+
+#: content-link.php:51 content.php:48
+msgid "Tagged "
+msgstr "タグ"
+
+#: content-link.php:50 content.php:47
+msgid "Posted in "
+msgstr "カテゴリー:"
+
+#: content-link.php:48 content.php:44
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: content-link.php:48 content.php:44
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: content-link.php:48 content.php:44
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: content-link.php:42 content-page.php:14 content-single.php:29 content.php:38
+#: image.php:81
+msgid "Pages:"
+msgstr "ページ:"
+
+#: content-link.php:37 content-link.php:41 content.php:33 content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-link.php:23 content-single.php:17 content.php:19
+msgid "by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\">%3$s</a></span>"
+msgstr "投稿者: <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\">%3$s</a></span>"
+
+#: content-link.php:25 content-single.php:19 content.php:21
+msgid "View all posts by %s"
+msgstr "%s のすべての投稿を表示"
+
+#: comments.php:35
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:25
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:24
+msgid "&larr; Older Comments"
+msgstr "&larr; 古いコメント"
+
+#: comments.php:23
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:14
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のコメント"
+
+#: archive.php:47 archive.php:63 index.php:16 index.php:32 search.php:22
+#: search.php:38
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:46 archive.php:62 index.php:15 index.php:31 search.php:21
+#: search.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 過去の投稿"
+
+#: archive.php:45 archive.php:61 index.php:14 index.php:30 search.php:20
+#: search.php:36 single.php:27
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: archive.php:27 functions.php:136
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: archive.php:25
+msgid "Yearly Archives: %s"
+msgstr "年別アーカイブ: %s"
+
+#: archive.php:23
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ: %s"
+
+#: archive.php:21
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ: %s"
+
+#: archive.php:19
+msgid "Tag Archives: %s"
+msgstr "タグ別アーカイブ: %s"
+
+#: archive.php:17
+msgid "Category Archives: %s"
+msgstr "カテゴリー別アーカイブ: %s"
+
+#: archive.php:15
+msgid "Author Archives: %s"
+msgstr "作成者別アーカイブ: %s"
+
+#: 404.php:31
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "月別アーカイブを見てみてください。%1$s"
+
+#: 404.php:17
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "ご指定のコンテンツを見つけられませんでした。検索するか、下記のリンクが役に立つかもしれません。"
+
+#: 404.php:24
+msgid "Most Used Categories"
+msgstr "よく使われているカテゴリー"
+
+#: 404.php:13
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "おっと、失礼しました。"
