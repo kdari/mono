@@ -4,7 +4,7 @@ Tags:  buttons, related posts, google analytics, share buttons, social sharing, 
 Requires at least: 3.3
 Tested up to: 5.2
 Requires PHP: 5.2
-Stable tag: 8.13.3
+Stable tag: 8.13.4
 
 
 Boost Audience Engagement with Award Winning Speed Optimized Social Tools: Share Buttons, Related Posts, Monetization & Google Analytics.
@@ -54,7 +54,7 @@ The German computer magazine c’t has developed “Shariff” (ʃɛɹɪf) that 
  
 The "original" share buttons from Facebook, Pinterest and others automatically transmit data of your visitors to the social network sites as soon as they visit your website. They do not need to click on a share button for this to happen and therefore have no choice. Shareaholic enables visitors to see how popular your page is and display share buttons without this needless leakage to the social networks (unless they decide to share, of course). This is done via server-side code that is part of this plugin to fetch share counts. Once fetched, share counts are cached to ensure maximum performance.
 
-To take advantage of this privacy feature, enable "Server Side Share Counts" under Advanced Settings.
+To take advantage of this privacy feature, enable "Share Count Proxy" under Advanced Settings.
 
 = Share Buttons for Images =
 
@@ -269,6 +269,10 @@ The default Shareaholic thumbnail width is 640px with dynamic height and no crop
 Each time you change Shareaholic's thumbnail dimensions like this, you will probably want to have WordPress regenerate appropriate sized thumbnails for all of your images. We highly recommend the [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) plugin for this purpose.
 
 == Changelog ==
+= 8.13.4 (2019-06-24) =
+* New debug options for Share Count Proxy
+* Caching improvements for Share Count Proxy
+
 = 8.13.3 (2019-06-14) =
 * Various Admin Panel improvements
 
@@ -279,7 +283,7 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 * Bugfix: fixed issue where plugin could not be activated on some webhosts due to an unnecessary code comment
 
 = 8.13.0 (2019-05-24) =
-* Support for authenticated Facebook Graph API calls from the Server Side Share Counts API. Fixes issue with significantly reduced Share Counts from Facebook in some cases. Please turn on the Server Side Share Count API from the Advanced Settings tab. You will need to save your [Facebook App ID and Secret keys](https://support.shareaholic.com/hc/en-us/articles/360028605231).
+* Support for authenticated Facebook Graph API calls from the Share Count Proxy. Fixes issue with significantly reduced Share Counts from Facebook in some cases. Please turn on the Share Count API Proxy from the Advanced Settings tab. You will need to save your [Facebook App ID and Secret keys](https://support.shareaholic.com/hc/en-us/articles/360028605231).
 
 = 8.12.6 (2019-05-06) =
 * Updated Admin Submenu order
@@ -291,7 +295,7 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 = 8.12.4 (2019-04-19) =
 * Enhancement: Header now consistent and language localized across all menus
 * Fix: Facebook changed their [Share Count API](https://www.shareaholic.com/sharecounter/?url=https://www.amazon.com/). So, we adapted.
-* Fix: Various updates to Server Side Share Counts service
+* Fix: Various updates to Share Count Proxy service
 
 = 8.12.3 (2019-04-10) =
 * Enhancement: New Admin UI (Beta) is now localized in Dutch (nl), French (fr), German (de), Italian (it), Japanese (jp), Polish (pl), Portugese (pt), Russian (ru) and Spanish (es)
@@ -479,7 +483,7 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 = 8.1.0 (2017-07-24) =
 * New: Introducing the **[Tools Badge](https://support.shareaholic.com/hc/en-us/categories/115001014006-Tools-Badge)**! ([learn more](https://support.shareaholic.com/hc/en-us/categories/115001014006-Tools-Badge)) Introducing a brand new way to launch the Shareaholic Console without ever leaving your website! Contains quick-links to your site analytics, help center, and much more to help you manage your site with greater ease. If you'd rather hide this badge or change its location, you can do so from your settings. It is 100% configurable.
 * Bugfix: Resolved the 403 Forbidden error that some admins were getting upon clicking the Dashboard link. Affected only sites on cPanel with mod_security enabled ex. HostGator
-* Enhancement: Google+ share count is now also available to sites that do not enable Server Side Share counts API
+* Enhancement: Google+ share count is now also available to sites that do not enable the Share Count Proxy
 
 = 8.0.1 (2017-07-10) =
 * Version 8 is here bringing with it a brand new revamped and streamlined UI!
@@ -516,7 +520,7 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 
 = 7.8.0.4 =
 * Bugfix: We fixed the code which displays the Facebook share count to accommodate Facebook's new data structure.
-* Bugfix: Fixed server side share counts for Odnoklassniki
+* Bugfix: Fixed Share Count Proxy counts for Odnoklassniki
 
 = 7.8.0.3 =
 * Bugfix: Fix for Cloudflare compatibility
@@ -601,7 +605,7 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 * Enhancement: Detect permalink changes in order to serve up-to-date content
 
 = 7.6.1.7 =
-* Bugfix: Fixed issue with Server side share count option
+* Bugfix: Fixed issue with Share Count Proxy option
 
 = 7.6.1.6 =
 * Enhancement: Removed analytics option from Advanced Settings page
@@ -641,12 +645,12 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 * Enhancement: Improved reliability of Related Content App for cases where the WordPress install is located in a subdirectory or subpath
 
 = 7.6.0.5 =
-* Enhancement: Modified curl multi to conserve on cpu usage for server side share counts
-* Enhancement: Added garbage collection cron job to clean up expired server side share count transient cache
+* Enhancement: Modified curl multi to conserve cpu usage for Share Count Proxy
+* Enhancement: Added garbage collection cron job to clean up expired Share Count Proxy transient cache
 
 = 7.6.0.4 =
 * Bugfix: fixed Share Buttons not generating links for posts in index and category pages
-* Enhancement: implemented debugging mode for server side share counts
+* Enhancement: implemented debugging mode for Share Count Proxy
 
 = 7.6.0.3 =
 * Bugfix: fixed Share Buttons not grabbing correct content when placed in the sidebar
@@ -681,7 +685,7 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
   * Updated Simplified Chinese (zh_CN)
   
 = 7.5.0.4 =
-* Tweak: Cache server side share counts for longer duration (5 minutes)
+* Tweak: Cache Share Count Proxy counts for longer duration (5 minutes)
 * Fix: Fixed miscellaneous v6->v7 conversion bugs
 
 = 7.5.0.3 =
@@ -730,11 +734,11 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 * Added cache cleanup support for WP Super Cache, Hyper Cache and Quick Cache plugin's
 
 = 7.4.0.4 =
-* Bugfix: Removed an unneeded conditional check from the server side Share Counts API to make it more reliable
+* Bugfix: Removed an unneeded conditional check from the Share Count Proxy to make it more reliable
 * Clear W3 Total Cache for clean activation and deactivation
 
 = 7.4.0.3 =
-* Bugfix: Added url encoding for server side Share Counts API
+* Bugfix: Added url encoding for Share Count Proxy
 
 = 7.4.0.2 =
 * Miscellaneous performance enhancements for Share Counts API
@@ -744,7 +748,7 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 
 = 7.4.0.0 =
 * Share Buttons App
-  * Share Counts for Google+, Reddit, StumbleUpon, VK, Buffer, etc! This release features an optional and all new server side Share Counts API. Toggle this option under the "Advanced Settings" section.
+  * Share Counts for Google+, Reddit, StumbleUpon, VK, Buffer, etc! This release features an optional and all new Share Count Proxy. Toggle this option under the "Advanced Settings" section.
   * Major performance upgrade and speed boost! Your pages will load faster for your visitors as share count lookups are now consolidated to one single HTTP request per page load (vs a call for each sharing service). The share counts are also heavily cached on both the client and server for super fast lookups and page performance.
 
 = 7.3.0.1 =
@@ -910,7 +914,7 @@ Each time you change Shareaholic's thumbnail dimensions like this, you will prob
 * Show Related Posts data status
 
 == Upgrade Notice ==
-= 8.13.3 =
+= 8.13.4 =
 We update this plugin regularly so we can make it better for you. Update to the latest version for all of the available features and improvements. Thanks for using Shareaholic!
 
 = 8.12.1 =

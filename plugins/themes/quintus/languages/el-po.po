@@ -1,0 +1,275 @@
+# Translation of Quintus in Greek (Polytonic)
+# This file is distributed under the same license as the Quintus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-01 19:25:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Quintus\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/quintus/style.css
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/quintus/full-width-page.php
+msgid "Full-width, no sidebar"
+msgstr "Πλῆρες φάρδος χωρὶς πλαϊνὴ στήλη"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/quintus/style.css
+msgid "A theme that has an old-style appeal with semi-academic graciousness and elegant typography. Fitting for displaying either text or images, Quintus offers a fresh look with room for customization, including custom backgrounds, menus, header images, and the option to publish short aside posts."
+msgstr ""
+
+#: single.php:29
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:16
+msgid "Bookmark the <a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Ἀποθηκεῦστε τὸν <a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">μόνιμο σύνδεσμο</a> στοὺς σελιδοδεῖκτες σας."
+
+#: single.php:28
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: searchform.php:9 searchform.php:10 searchform.php:11
+msgid "Search"
+msgstr "Ἀναζήτηση"
+
+#: search.php:50
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Λυπούμεθα, ἀλλὰ τίποτα δὲν ταίριαζε μ' αὐτὸ ποὺ ψάχνετε. Παρακαλοῦμε ξαναδοκιμάστε μὲ διαφορετικὲς λέξεις."
+
+#: search.php:46
+msgid "Nothing Found"
+msgstr "Οὑδὲν εὑρέθη!"
+
+#: inc/theme-options.php:108
+msgid "Archaic"
+msgstr ""
+
+#: inc/theme-options.php:122
+msgid "Choose a Color"
+msgstr "Ἐπιλέξτε χρῶμα"
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Ἀναζήτηση ἀποτελεσμάτων γιά: %s"
+
+#: inc/theme-options.php:104
+msgid "Default"
+msgstr "Κατὰ παραδοχήν (default)"
+
+#: inc/theme-options.php:83
+msgid "%s Theme Options"
+msgstr "Ρυθμίσεις θέματος %s"
+
+#: inc/theme-options.php:67 inc/theme-options.php:68
+msgid "Theme Options"
+msgstr "Ἐπιλογές θέματος ἐμφάνισης"
+
+#: inc/theme-options.php:40
+msgid "Color Schemes"
+msgstr "Χρωματικοὶ συνδυασμοί"
+
+#: image.php:93
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Σχόλια καὶ εἰδοποιήσεις συνδέσεων εἶναι ἐπὶ τοῦ παρόντος κλειστά."
+
+#: image.php:91
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Οἱ εἰδοποιήσεις συνδέσεως ἔχουν κλείσει, ἀλλὰ μπορεῖτε νὰ <a class=\"comment-link\" href=\"#respond\" title=\"Ἀναρτῆστε σχόλιο\">ἀναρτήσετε σχόλιο</a>."
+
+#: image.php:89
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Τὰ σχόλια ἔχουν κλείσει ἀλλὰ μπορεῖτε νὰ ἀφήσετε μιὰ εἰδοποίηση σύνδεσης: <a class=\"trackback-link\" href=\"%s\" title=\"URL γιὰ εἰδοποίηση σύνδεσης πρὸς τὸ σχόλιό σας\" rel=\"trackback\">URL γιὰ εἰδοποίηση σύνδεσης</a>."
+
+#: image.php:87
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Σχολιάστε\">Σχολιάστε</a> ἢ ἀφῆστε εἰδοποίηση σύνδεσης: <a class=\"trackback-link\" href=\"%s\" title=\"Ἡ URL γιὰ εἰδοποίηση σύνδεσης πρὸς τὸ ἄρθρο σας\" rel=\"trackback\">URL γιὰ εἰδοποίηση σύνδεσης</a>. "
+
+#: image.php:35
+msgid "Next &rarr;"
+msgstr "Ἑπόμενο &rarr;"
+
+#: image.php:20
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"image-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Δημοσιεύθηκε </span> <span class=\"image-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> σὲ μέγεθος <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> στὴν συλλογὴ <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:34
+msgid "&larr; Previous"
+msgstr "&larr; Προηγούμενα"
+
+#: functions.php:229
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: functions.php:135
+msgid "Topics"
+msgstr "Θέματα"
+
+#: functions.php:72
+msgid "Sidebar 1"
+msgstr "Πλαϊνὴ στήλη 1"
+
+#: functions.php:74
+msgid "This is Quintus' widget sidebar. Leave empty if you want a one column layout."
+msgstr "Ἡ πλαϊνὴ στήλη τοῦ Quintus. Ἂν θέλετε μονόστηλη διάταξη, ἀφῆστε την ἀδειανή."
+
+#: functions.php:134
+msgid "Blogs I Read"
+msgstr "Ἱστολόγια I Διαβάστε"
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr "Πρωτεῦον μενού"
+
+#: footer.php:11
+msgid "Theme: %1$s by %2$s."
+msgstr "Θέμα: %1$s ἀπὸ τὸν/τὴν %2$s."
+
+#: footer.php:11
+msgid "Proudly powered by %s"
+msgstr "Λειτουργεῖ μὲ τὴν βοήθεια τοῦ %s"
+
+#: footer.php:11
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Μιὰ πλατφόρμα σημασιολογικῶν προσωπικῶν ἐκδόσεων"
+
+#: content-single.php:36
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "Καταχωρίσθηκε στὴν κατηγορία %1$s καὶ σημειώθηκε ὡς %2$s."
+
+#: content-single.php:38
+msgid "This entry was posted in %1$s."
+msgstr "Καταχωρίσθηκε στὴν κατηγορία %1$s."
+
+#: content-link.php:52 content-page.php:16 content-single.php:47 content.php:50
+#: image.php:30 image.php:95
+msgid "Edit"
+msgstr "Ἐπεξεργασία"
+
+#: content-link.php:51 content.php:48
+msgid "Tagged "
+msgstr "Μαρκαρίστηκε ὡς"
+
+#: content-link.php:50 content.php:47
+msgid "Posted in "
+msgstr "Ἀναρτήθηκε ὡς"
+
+#: content-link.php:48 content.php:44
+msgid "% Comments"
+msgstr "% Σχόλια"
+
+#: content-link.php:48 content.php:44
+msgid "1 Comment"
+msgstr ""
+
+#: content-link.php:48 content.php:44
+msgid "Leave a comment"
+msgstr "Σχολιάστε"
+
+#: content-link.php:42 content-page.php:14 content-single.php:29 content.php:38
+#: image.php:81
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: content-link.php:37 content-link.php:41 content.php:33 content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Συνέχεια <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-link.php:23 content-single.php:17 content.php:19
+msgid "by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\">%3$s</a></span>"
+msgstr "ἀπὸ τὸν/τὴν <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\">%3$s</a></span>"
+
+#: content-link.php:25 content-single.php:19 content.php:21
+msgid "View all posts by %s"
+msgstr "Δεῖτε ὅλες τὶς καταχωρίσεις τοῦ/τῆς %s"
+
+#: comments.php:35
+msgid "Comments are closed."
+msgstr "Ἡ ὑποβολὴ σχολίων ἔχει κλείσει."
+
+#: comments.php:25
+msgid "Newer Comments &rarr;"
+msgstr "Νεότερα σχόλια &rarr;"
+
+#: comments.php:24
+msgid "&larr; Older Comments"
+msgstr "&larr; Παλαιότερα σχόλια"
+
+#: comments.php:23
+msgid "Comment navigation"
+msgstr "Πλοήγηση στὰ σχόλια"
+
+#: comments.php:14
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ἕνα σχόλιο ἐπὶ τοῦ &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s σχόλια ἐπὶ τοῦ &ldquo;%2$s&rdquo;"
+
+#: archive.php:47 archive.php:63 index.php:16 index.php:32 search.php:22
+#: search.php:38
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Νεώτερα ἄρθρα <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:46 archive.php:62 index.php:15 index.php:31 search.php:21
+#: search.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Παλαιότερα ἄρθρα"
+
+#: archive.php:45 archive.php:61 index.php:14 index.php:30 search.php:20
+#: search.php:36 single.php:27
+msgid "Post navigation"
+msgstr "Περιήγηση ἄρθρων"
+
+#: archive.php:27 functions.php:136
+msgid "Archives"
+msgstr "Ἀρχεῖα"
+
+#: archive.php:25
+msgid "Yearly Archives: %s"
+msgstr "Ἐτήσια Ἀρχεῖα: %s"
+
+#: archive.php:23
+msgid "Monthly Archives: %s"
+msgstr "Μηνιαία Ἀρχεῖα: %s "
+
+#: archive.php:21
+msgid "Daily Archives: %s"
+msgstr "Ἡμερήσια ἀρχεῖα: %s"
+
+#: archive.php:19
+msgid "Tag Archives: %s"
+msgstr "Ἀρχεῖα ἐτικέττας: %s"
+
+#: archive.php:17
+msgid "Category Archives: %s"
+msgstr "Ἀρχεῖα κατηγορίας: %s"
+
+#: archive.php:15
+msgid "Author Archives: %s"
+msgstr "Ἀρχεῖα συγγραφέως: %s "
+
+#: 404.php:31
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Προσπαθῆστε νὰ ψάξετε στὰ μηνιαῖα ἀρχεῖα. %1$s"
+
+#: 404.php:17
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "Μᾶλλον δὲν μποροῦμε νὰ βροῦμε αὐτὸ ποὺ θέλετε. Ἴσως βοηθοῦσε μία ἀναζήτηση ἢ ἕνας ἀπὸ τοὺς παρακάτω συνδέσμους."
+
+#: 404.php:24
+msgid "Most Used Categories"
+msgstr "Οἱ πιὸ χρησιμοποιημένες κατηγορίες"
+
+#: 404.php:13
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Αὐτὸ εἶναι λίγο περίεργο, ἢ μήπως ὄχι;"

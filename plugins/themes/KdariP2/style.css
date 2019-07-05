@@ -1,0 +1,31 @@
+/*
+THEME NAME: Kdari P2
+THEME URI: http://kdari.com/
+DESCRIPTION: This theme is a variant of the Twenty Ten theme. It adds custom functionality from P2 and lightens it a good bit.
+VERSION: .5
+AUTHOR: Luke Gedeon
+AUTHOR Uri: http://luke.gedeon.name/
+TAGS: custom, twentyten, p2
+TEMPLATE: twentyten
+*/
+@import url('../twentyten/style.css');
+
+#site-title {
+    width: 640px;
+}
+#site-description {
+    width: 300px;
+    text-align: right;
+}
+
+/*	Make Single column layout full-width	*/
+.page-template-onecolumn-page-php #container,
+.page-template-onecolumn-page-php #content,
+.page-template-no-page-title-NS-php #container,
+.page-template-no-page-title-NS-php #content {
+margin:0 0 0 0;
+}
+
+.one-column #content {
+    width: 100%;
+}

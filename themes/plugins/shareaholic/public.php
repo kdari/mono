@@ -494,6 +494,11 @@ class ShareaholicPublic {
         $options['timeout'] = intval($_GET['timeout']);
       }
       
+      if ($debug_mode) {
+        $options['show_raw'] = isset($_GET['raw']) ? $_GET['raw'] : '1';
+        $options['show_response_header'] = isset($_GET['response_headers']) ? $_GET['response_headers'] : '1';
+      }
+      
       if (ShareaholicUtilities::facebook_auth_check() == "SUCCESS") {
         $options['facebook_access_token'] = ShareaholicUtilities::fetch_fb_access_token();
       }
@@ -510,12 +515,13 @@ class ShareaholicPublic {
         } else {
           $shares = new ShareaholicSeqShareCount($url, $services, $options);
         }
+        
         $result = $shares->get_counts();
 
         if ($debug_mode) {
           $result['has_curl_multi'] = $has_curl_multi;
           $result['curl_type'] = get_class($shares);
-          $result['raw'] = $shares->raw_response;
+          $result['meta'] = $shares->raw_response;
         }
 
         if (isset($result['data']) && !$debug_mode) {
@@ -525,9 +531,12 @@ class ShareaholicPublic {
       }
     }
 
+    $seconds_to_cache = 600; // 10 minutes
+    $ts = gmdate("D, d M Y H:i:s", time() + 600) . " GMT";
     header('Access-Control-Allow-Origin: *');
     header('Content-Type: application/json');
-    header('Cache-Control: max-age=600'); // 10 minutes
+    header("Expires: $ts"); // 10 minutes
+    header("Cache-Control: max-age=$seconds_to_cache"); // 10 minutes
     echo json_encode($result);
     exit;
   }
@@ -899,7 +908,14 @@ class ShareaholicPublic {
       $post_types_filtered = array_diff($post_types, $post_types_exclude);
       
       // Query
-      $args = array( 'post_type' => $post_types_filtered, 'post__not_in' => array($post_id), 'posts_per_page' => $n, 'orderby' => 'rand' );
+      $args = array(
+        'post_type' => $post_types_filtered,
+        'post__not_in' => array($post_id),
+        'posts_per_page' => $n,
+        'orderby' => 'rand',
+        'post_status' => 'publish'
+      );
+      
       $rand_posts = get_posts( $args );
       foreach ( $rand_posts as $post ){
         if ($post->post_title) {
@@ -934,7 +950,7 @@ class ShareaholicPublic {
     );
     
     header('Content-Type: application/json; charset=utf-8');
-    header('Cache-Control: max-age=180'); // 3 minutes
+    header('Cache-Control: max-age=300'); // 5 minutes
     echo json_encode($result);
     exit;
   }

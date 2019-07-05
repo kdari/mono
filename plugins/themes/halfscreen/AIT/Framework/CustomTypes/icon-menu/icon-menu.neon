@@ -1,0 +1,16 @@
+iconMenuLabelColor:
+	label: Text color
+	type: colorpicker
+	default: "#FF0000"
+
+iconMenuLink:
+	label: Link
+	type: text
+	
+iconMenuLabel:
+	label: Label
+	type: text
+	
+iconMenuImage:
+	label: Upload image
+	type: image-url

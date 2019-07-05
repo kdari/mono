@@ -506,7 +506,7 @@ JQUERY;
       $jwt = ShareaholicAdmin::get_publisher_token();
             
       if ($jwt) {
-        ShareaholicUtilities::load_template('admin_beta', array(
+        ShareaholicUtilities::load_template('admin', array(
           'jwt' => $jwt,
           'api_key' => $api_key
         ));

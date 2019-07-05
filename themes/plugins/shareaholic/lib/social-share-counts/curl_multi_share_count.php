@@ -3,7 +3,7 @@
  * Shareaholic Multi Share Count
  *
  * @package shareaholic
- * @version 1.0.0.0
+ * @version 2.0.0.0
  */
 
 require_once('share_count.php');
@@ -34,7 +34,12 @@ class ShareaholicCurlMultiShareCount extends ShareaholicShareCount {
     $services_length = count($this->services);
     $config = self::get_services_config();
     $response = array();
+    $meta = array();
     $response['status'] = 200;
+    
+    // Input Params
+    $show_raw = isset($this->options['show_raw']) ? $this->options['show_raw'] : '1';
+    $show_response_header = isset($this->options['show_response_header']) ? $this->options['show_response_header'] : '0';
     
     // array of curl handles
     $curl_handles = array();
@@ -89,12 +94,38 @@ class ShareaholicCurlMultiShareCount extends ShareaholicShareCount {
         if(curl_errno($handle)) {
           $response['status'] = 500;
         }
+        
+        $headers = array();
+        $body = array();
+        $headers_arr = array();
+        $aHeaders = array();
+        
+        // Parse header and body from response
+        $header_size = curl_getinfo($handle, CURLINFO_HEADER_SIZE);
+        $headers = substr(curl_multi_getcontent($handle), 0, $header_size);
+        $body = substr(curl_multi_getcontent($handle), $header_size);
+        
+        // Explode header values
+        $headers_arr = explode("\r\n", $headers);
+        // Remove empty values
+        $headers_arr = array_filter($headers_arr);
+        // Convert to key=>value
+        foreach($headers_arr as $i => $line){
+          if ($i === 0) {
+            $aHeaders['http_code'] = trim($line);
+          } else {
+            list($key, $val) = explode(': ', $line, 2);
+            $aHeaders[strtolower($key)] = trim($val);
+          }
+        }
+        
         $result = array(
-          'body' => curl_multi_getcontent($handle),
+          'body' => $body,
           'response' => array(
             'code' => curl_getinfo($handle, CURLINFO_HTTP_CODE)
           ),
         );
+        
         $callback = $config[$service]['callback'];
         
         // Facebook auth?
@@ -103,11 +134,41 @@ class ShareaholicCurlMultiShareCount extends ShareaholicShareCount {
         } else {
           $counts = $this->$callback($result);
         }
-        
+                
         if(is_numeric($counts)) {
           $response['data'][$service] = $counts;
         }
-        $this->raw_response[$service] = $result;
+        
+        // Include Response Headers?
+        if ($show_response_header == '1') {
+          $whitelisted_response_header_keys = array(
+            'http_code',
+            'x-app-usage',
+            'expires',
+            'cache-control'
+          );
+          $result_response_headers = array(
+            'response' => array(
+              'header' => array_intersect_key($aHeaders, array_flip($whitelisted_response_header_keys)),
+              'code' => curl_getinfo($handle, CURLINFO_HTTP_CODE),
+            ),
+          );
+          $meta = array_merge($meta, $result_response_headers);
+        }
+        
+        // Include Raw Body & Headers?
+        if ($show_raw == '1') {
+          $result_raw = array(
+            'raw' => array(
+              'body' => $body,
+              'headers' => $headers,
+            ),
+          );
+          $meta = array_merge($meta, $result_raw);
+        }
+        
+        $this->raw_response[$service] = $meta;
+        
         curl_multi_remove_handle($multi_handle, $handle);
         curl_close($handle);
       }
@@ -117,9 +178,11 @@ class ShareaholicCurlMultiShareCount extends ShareaholicShareCount {
   }
 
   private function curl_setopts($curl_handle, $config, $service) {
-    // set the url to make the curl request
     $facebook_access_token = isset($this->options['facebook_access_token']) ? $this->options['facebook_access_token'] : false;
+    $http2 = isset($this->options['http2']) ? $this->options['http2'] : '0';
+    $timeout = isset($this->options['timeout']) ? $this->options['timeout'] : 5;
     
+    // set the url to make the curl request to
     if ($service == 'facebook' && $facebook_access_token) {
       $url = $config[$service]['url_auth'];
       $url = str_replace('%s', $this->url, $url);
@@ -128,25 +191,27 @@ class ShareaholicCurlMultiShareCount extends ShareaholicShareCount {
     } else {
       curl_setopt($curl_handle, CURLOPT_URL, str_replace('%s', $this->url, $config[$service]['url']));
     }
-    
-    $timeout = isset($this->options['timeout']) ? $this->options['timeout'] : 5;
 
     // other necessary settings:
-    // CURLOPT_HEADER means include header in output, which we do not want
     // CURLOPT_RETURNTRANSER means return output as string or not
     curl_setopt_array($curl_handle, array(
-      CURLOPT_HEADER => 0,
+      CURLOPT_HEADER => 1,
       CURLOPT_RETURNTRANSFER => 1,
       CURLOPT_TIMEOUT => $timeout,
       CURLOPT_SSL_VERIFYPEER => false,
       CURLOPT_SSL_VERIFYHOST => false,
     ));
-
+    
+    // HTTP/2 support
+    if($http2 == '1') {
+      curl_setopt($curl_handle, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_2_0);
+    }
+    
     // set the http method: default is GET
     if($config[$service]['method'] === 'POST') {
       curl_setopt($curl_handle, CURLOPT_POST, 1);
     }
-
+    
     // set the body and headers
     $headers = isset($config[$service]['headers']) ? $config[$service]['headers'] : array();
     $body = isset($config[$service]['body']) ? $config[$service]['body'] : NULL;

@@ -49,13 +49,14 @@ class ShareaholicHttp {
    *
    * @return mixed It returns an associative array of name value pairs or false if there was an error.
    */
-  public static function send($url, $options = array(), $ignore_error = false) {
+  public static function send($url, $options = array(), $ignore_error = true) {
     return self::send_with_wp($url, $options, $ignore_error);
   }
 
   private static function send_with_wp($url, $options, $ignore_error) {
     $request = array();
     $result = array();
+    $meta = array();
     $request['method'] = isset($options['method']) ? $options['method'] : 'GET';
     $request['headers'] = isset($options['headers']) ? $options['headers'] : array();
     $request['redirection'] = isset($options['redirection']) ? $options['redirection'] : 5;
@@ -83,7 +84,46 @@ class ShareaholicHttp {
       }
       return false;
     }
-
+        
+    // Include Response Headers?
+    $show_response_header = isset($options['show_response_header']) ? $options['show_response_header'] : '0';
+    
+    // Whitelisted Headers
+    $aHeaders = array(
+      'x-app-usage' => $response['headers']['x-app-usage'],
+    );
+    
+    // Remove entry from array if value is blank
+    foreach($aHeaders as $key=>$value) {
+      if(is_null($value) || $value == '') {
+        unset($aHeaders[$key]);
+      }
+    }
+    
+    if ($show_response_header == '1') {
+      $result_response_headers = array(
+        'response' => array(
+          'header' => $aHeaders,
+          'code' => wp_remote_retrieve_response_code($response),
+        ),
+      );
+      $meta = array_merge($meta, $result_response_headers);
+    }
+    
+    // Include Raw Body & Headers?
+    $show_raw = isset($options['show_raw']) ? $options['show_raw'] : '1';
+    if ($show_raw == '1') {
+      $result_raw = array(
+        'raw' => array(
+          'body' => wp_remote_retrieve_body($response),
+          'headers' => 'n/a',
+        ),
+      );
+      $meta = array_merge($meta, $result_raw);
+    }
+        
+    $response['meta'] = $meta;
+    
     return $response;
   }
 }

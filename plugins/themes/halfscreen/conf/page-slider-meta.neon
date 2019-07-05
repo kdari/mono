@@ -1,0 +1,45 @@
+"Main" : section
+overrideGlobalSlider:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+headerType:
+	label: Show header type
+	type: select
+	default: {
+		slider: {
+			label: Slider
+			checked: true
+		},
+		3dslider: {
+			label: 3D Slider
+		}
+		none: {
+			label: None
+		}
+	}
+sliderType:
+	label: Slider type
+	type: dropdown-categories
+	default: 'slider-creator'
+displayPattern:
+	label: Disable pattern
+	type: checkbox
+	default:
+		enable:
+			label: 'Yes'
+"Slider Settings" : section
+topPadding:
+	label: 'Top padding (px)'
+	type: text
+bottomPadding:
+	label: 'Bottom padding (px)'
+	type: text
+whitespaceHeight:
+	label: "Bottom white-space height (px)"
+	type: text
+controllersBottomPosition:
+	label: "Controllers bottom position (px)"
+	type: text

@@ -34,6 +34,7 @@ class ShareaholicSeqShareCount extends ShareaholicShareCount {
     $services_length = count($this->services);
     $config = self::get_services_config();
     $response = array();
+    $meta = array();
     $response['status'] = 200;
 
     for($i = 0; $i < $services_length; $i++) {
@@ -49,12 +50,19 @@ class ShareaholicSeqShareCount extends ShareaholicShareCount {
 
       $timeout = isset($config[$service]['timeout']) ? $config[$service]['timeout'] : 1;
       $timeout = isset($this->options['timeout']) ? $this->options['timeout'] : $timeout;
+      $http2 = isset($this->options['http2']) ? $this->options['http2'] : '0';
+      
+      $show_raw = isset($this->options['show_raw']) ? $this->options['show_raw'] : '1';
+      $show_response_header = isset($this->options['show_response_header']) ? $this->options['show_response_header'] : '0';
 
       $options = array(
         'method' => $config[$service]['method'],
         'timeout' => $timeout,
         'headers' => isset($config[$service]['headers']) ? $config[$service]['headers'] : array(),
         'body' => isset($config[$service]['body']) ? $config[$service]['body'] : NULL,
+        'http2' => $http2,
+        'show_raw' => $show_raw,
+        'show_response_header' => $show_response_header,
       );
       
       // set the url to make the curl request
@@ -72,8 +80,9 @@ class ShareaholicSeqShareCount extends ShareaholicShareCount {
       if(!$result) {
         $response['status'] = 500;
       }
+      
       $callback = $config[$service]['callback'];
-            
+      
       if ($service == 'facebook' && isset($this->options['facebook_access_token'])){
         $counts = $this->$callback($result, isset($this->options['facebook_access_token']));
       } else {
@@ -83,8 +92,10 @@ class ShareaholicSeqShareCount extends ShareaholicShareCount {
       if(is_numeric($counts)) {
         $response['data'][$service] = $counts;
       }
-      $this->raw_response[$service] = $result;
+      
+      $this->raw_response[$service] = $result['meta'];
     }
+    
     return $response;
   }
 }

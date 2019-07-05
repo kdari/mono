@@ -1,0 +1,57 @@
+/* @Font-Face
+------------------------------------ */
+
+@font-face {
+	font-family: 'MuseoSlab500';
+	src: url('_fonts/museo_slab_500-webfont.eot');
+	src: url('_fonts/museo_slab_500-webfont.eot?#iefix') format('eot'),
+		url('_fonts/museo_slab_500-webfont.woff') format('woff'),
+		url('_fonts/museo_slab_500-webfont.ttf') format('truetype'),
+		url('_fonts/museo_slab_500-webfont.svg#webfontL428bbyn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'MuseoSlab500Italic';
+	src: url('_fonts/museo_slab_500italic-webfont.eot');
+	src: url('_fonts/museo_slab_500italic-webfont.eot?#iefix') format('eot'),
+		url('_fonts/museo_slab_500italic-webfont.woff') format('woff'),
+		url('_fonts/museo_slab_500italic-webfont.ttf') format('truetype'),
+		url('_fonts/museo_slab_500italic-webfont.svg#webfontTSnPnKFh') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'SkolarCyrillicRegular';
+	src: url('_fonts/skolarcyrillic_regular-webfont.eot');
+	src: url('_fonts/skolarcyrillic_regular-webfont.eot?#iefix') format('eot'),
+		url('_fonts/skolarcyrillic_regular-webfont.woff') format('woff'),
+		url('_fonts/skolarcyrillic_regular-webfont.ttf') format('truetype'),
+		url('_fonts/skolarcyrillic_regular-webfont.svg#webfontAA8UwItu') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'SkolarCyrillicBold';
+	src: url('_fonts/skolarcyrillic_bold-webfont.eot');
+	src: url('_fonts/skolarcyrillic_bold-webfont.eot?#iefix') format('eot'),
+		url('_fonts/skolarcyrillic_bold-webfont.woff') format('woff'),
+		url('_fonts/skolarcyrillic_bold-webfont.ttf') format('truetype'),
+		url('_fonts/skolarcyrillic_bold-webfont.svg#webfontfhIY72sp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'SkolarCyrillicItalic';
+	src: url('_fonts/skolarcyrillic_italic-webfont.eot');
+	src: url('_fonts/skolarcyrillic_italic-webfont.eot?#iefix') format('eot'),
+		url('_fonts/skolarcyrillic_italic-webfont.woff') format('woff'),
+		url('_fonts/skolarcyrillic_italic-webfont.ttf') format('truetype'),
+		url('_fonts/skolarcyrillic_italic-webfont.svg#webfontxg8uBRoV') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}

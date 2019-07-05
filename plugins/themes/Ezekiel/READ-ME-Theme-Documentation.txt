@@ -1,0 +1,132 @@
+Ezekiel Theme for WordPress
+Theme Name: Faded Theme
+Created: May 31, 2011
+By: Adam Pickering, Phil Johnston
+Contact Info: Visit churchthemer.com
+
+----------------------------------------------------------------------------------------------------------
+
+VERSION HISTORY
+1.1.2 - August 2, 2011
+Updated TimThumb Script to fix security risk
+
+1.1.1 - July 14, 2011
+Changed the sermon popup from file_get_contents to using URL variables instead
+
+1.1 - July 13, 2011
+* Fixed jQuery issues with Wordpress 3.2.1
+
+1.0 - May 31, 2011
+* Initial release.
+
+----------------------------------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+A) Initial Setup Instructions
+B) Setting up Events, News, and Sermons, and Photos Albums.
+C) Create Navigation Menu's
+D) Ezekiel Theme Options
+E) Adding an event
+F) Adding a sermon
+G) Adding a photo album
+H) Adding news
+
+
+----------------------------------------------------------------------------------------------------------
+
+A) Initial Setup Instructions
+
+1. Make sure you have Wordpress installed on your web server.
+2. Download the theme and upload it to your wp-content/themes/ directory in your FTP. 
+3. Log into Wordpress and activate the theme by going to the Appearance > Themes tab.
+
+Video Tutorial: http://www.youtube.com/watch?v=Kdndj-o6xCA
+
+----------------------------------------------------------------------------------------------------------
+
+B) Setting up Events, News, and Sermons.
+
+1. Go to Pages > Add new 
+2. Give the page the corresponding name Events, News, Sermons, or Photo Albums
+3. On the right hand side under "Page Attributes" choose the corresponding page template
+
+Repeat the above steps for each of the 4 (shows, news, videos, and photo albums)
+
+Video Tutorial: http://www.youtube.com/watch?v=Kdndj-o6xCA
+----------------------------------------------------------------------------------------------------------
+
+C) Create Navigation Menus
+
+You can set up custom navigation menus for this theme by going to Appearance > Menus.
+
+1. Create a new Menu. Give it a menu name and click "Create Menu". Call it something like "Main Navigation" or "Header Navigation"
+2. You'll now see "Theme Locations" on the left hand panel. The location in this theme is:
+	- Primary Navigation (shows up in the header where the main navigation buttons are)
+
+3. Select from the drop-down where you would like this menu to show up on the website
+4. Select the pages you would like to be displayed in the menu by selecting them and clicking "Add to menu"
+
+Video Tutorial:
+http://www.youtube.com/watch?v=dOnc1g-6mVY
+----------------------------------------------------------------------------------------------------------
+
+D) Ezekiel Theme Options
+
+1. Click on "Appearance > Theme Options"
+2. Fill in the fields with the requested information
+
+----------------------------------------------------------------------------------------------------------
+
+
+E) Adding an Event
+
+1. Click on Events > Add new event 
+2. Give the event a name and description.
+3. On the right hand side where it says "Event Date", click "edit" to set the event's date. The default is today's date. IMPORTANT: The date must be in the future or the theme will assume the event is in the past and won't show it.
+4. At the bottom you can enter an address and a URL to a map. (Google Maps or Mapquest are probably your best options)
+5. You can also add a Featured Image on the right hand side.
+
+Video Tutorial:
+http://www.youtube.com/watch?v=1iNNKIPmABs
+
+----------------------------------------------------------------------------------------------------------
+
+F) Adding a Sermon
+
+F) Adding a Sermon
+
+1. Click on Sermons > Add new sermon 
+2. Give the Sermon a name and enter any sermon text or notes.
+4. At the bottom you will enter the URL to a sermon MP3 File and OGG File. Click "Upload one here", upload the sermon MP3, copy the file's URL, close the dialog, and paste the url into the field.
+
+Important! Make sure you upload an OGG and an MP# or the player will not work in all browsers.
+
+5. You can also add the Sermon Author's Name.
+6. Save/Update the sermon.
+
+
+----------------------------------------------------------------------------------------------------------
+
+G) Adding a Photo Album
+
+1. Click on Photo Albums > Add new photo album 
+2. Give the photo album a name and enter a description
+4. At the bottom click on "Upload Images" and upload all images you want in this album. 
+5. Expand one of the uploaded images and scroll to the bottom and select "Use as featured image"
+5. Save/Update the sermon.
+
+Video Tutorial:
+http://www.youtube.com/watch?v=KZHpS1IMcWc
+
+----------------------------------------------------------------------------------------------------------
+H) Adding news
+
+1. Click on News > Add news
+2. Give the news article a name and text.
+3. Save/Update the news.
+
+Video Tutorial:
+http://www.youtube.com/watch?v=SA9AESF7430
+----------------------------------------------------------------------------------------------------------
+

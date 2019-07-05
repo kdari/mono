@@ -81,7 +81,7 @@ window.ShareaholicConfig = {
                     <?php if (isset($settings['disable_internal_share_counts_api'])) { ?>
                       <?php echo ($settings['disable_internal_share_counts_api'] == 'on' ? 'checked' : '') ?>
                       <?php } ?>>
-                      <label for="share_counts"> <?php echo sprintf(__('Disable server-side Share Counts API.', 'shareaholic')); ?> <?php echo sprintf(__('When enabled, Share Counts will be fetched server-side. Once fetched, Share Counts are cached locally to ensure maximum performance. This is a privacy feature and uses server resources.', 'shareaholic')); ?></label>
+                      <label for="share_counts"> <?php echo sprintf(__('Disable Share Count Proxy.', 'shareaholic')); ?> <?php echo sprintf(__('When enabled, Share Counts will be fetched and cached locally by your server. This local proxy enhances user privacy and share counts but uses your server resources. Retrieving, caching and serving Share Counts can be a server and database intensive activity which can test even the best of web hosts. You can save on your hosting bill by offloading this heavy lifting to Shareaholic servers instead, <a href="%s" target="_blank">learn more</a>.', 'shareaholic'), 'https://support.shareaholic.com/hc/en-us/articles/360029500132'); ?></label>
                 </div>
                 
                 <?php if (isset($settings['disable_internal_share_counts_api']) && $settings['disable_internal_share_counts_api'] != 'on') { ?>

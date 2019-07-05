@@ -37,13 +37,13 @@ abstract class ShareaholicShareCount {
         'url' => 'https://graph.facebook.com/?fields=og_object{engagement{count}}&id=%s',
         'url_auth' => 'https://graph.facebook.com/?access_token=%auth%&fields=engagement&id=%s',
         'method' => 'GET',
-        'timeout' => 3,  // in number of seconds
+        'timeout' => 1,  // in number of seconds
         'callback' => 'facebook_count_callback',
       ),
       'pinterest' => array(
         'url' => 'https://api.pinterest.com/v1/urls/count.json?url=%s&callback=f',
         'method' => 'GET',
-        'timeout' => 3,
+        'timeout' => 1,
         'callback' => 'pinterest_count_callback',
       ),
       'buffer' => array(

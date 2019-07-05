@@ -3,7 +3,7 @@
 Plugin Name: Shareaholic - Grow and Engage Your Audience
 Plugin URI: https://www.shareaholic.com/website-tools/
 Description: Shareaholic’s official WordPress plugin allows you to add Award-Winning Social Share Buttons, Related Posts, Content Analytics, Ad Monetization, and more to your website.
-Version: 8.13.3
+Version: 8.13.4
 Author: Shareaholic
 Author URI: https://www.shareaholic.com
 Text Domain: shareaholic
@@ -14,7 +14,7 @@ Domain Path: /languages
  * The main file!
  *
  * @package shareaholic
- * @version 8.13.3
+ * @version 8.13.4
  */
 
 /**
@@ -35,7 +35,7 @@ if(!defined('SHAREAHOLIC_DIR')) define('SHAREAHOLIC_DIR', dirname(__FILE__));
 if(!defined('SHAREAHOLIC_ASSET_DIR')) define('SHAREAHOLIC_ASSET_DIR', plugins_url( '/assets/' , __FILE__ ));
 
 // Caching
-if(!defined('SHARE_COUNTS_CHECK_CACHE_LENGTH')) define( 'SHARE_COUNTS_CHECK_CACHE_LENGTH', 300 ); // 300 seconds
+if(!defined('SHARE_COUNTS_CHECK_CACHE_LENGTH')) define( 'SHARE_COUNTS_CHECK_CACHE_LENGTH', 900 ); // 900 seconds
 
 // because define can use function returns and const can't
 if(!defined('SHAREAHOLIC_DEBUG')) define('SHAREAHOLIC_DEBUG', getenv('SHAREAHOLIC_DEBUG'));
@@ -59,7 +59,7 @@ if (!class_exists('Shareaholic')) {
     const API_URL = 'https://web.shareaholic.com'; // uses static IPs for firewall whitelisting
     const CM_API_URL = 'https://cm-web.shareaholic.com'; // uses static IPs for firewall whitelisting
 
-    const VERSION = '8.13.3';
+    const VERSION = '8.13.4';
 
     /**
      * Starts off as false so that ::get_instance() returns

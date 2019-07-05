@@ -1,0 +1,275 @@
+# Translation of Quintus in German
+# This file is distributed under the same license as the Quintus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-11 17:48:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Quintus\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/quintus/style.css
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/quintus/full-width-page.php
+msgid "Full-width, no sidebar"
+msgstr "Volle Breite, keine Seitenleiste"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/quintus/style.css
+msgid "A theme that has an old-style appeal with semi-academic graciousness and elegant typography. Fitting for displaying either text or images, Quintus offers a fresh look with room for customization, including custom backgrounds, menus, header images, and the option to publish short aside posts."
+msgstr ""
+
+#: single.php:29
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:16
+msgid "Bookmark the <a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Lesezeichen hinzufügen für <a href=\"%1$s\" title=\"Permanentlink zu %2$s\" rel=\"bookmark\">Permanentlink</a>."
+
+#: single.php:28
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: searchform.php:9 searchform.php:10 searchform.php:11
+msgid "Search"
+msgstr "Suchen"
+
+#: search.php:50
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Mit deinen Suchkriterien wurden leider nichts gefunden. Versuche es mit anderen Suchbegriffen erneut."
+
+#: search.php:46
+msgid "Nothing Found"
+msgstr "Es konnte nichts gefunden werden."
+
+#: inc/theme-options.php:108
+msgid "Archaic"
+msgstr "Archaisch"
+
+#: inc/theme-options.php:122
+msgid "Choose a Color"
+msgstr "Wähle eine Farbe"
+
+#: search.php:14
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: inc/theme-options.php:104
+msgid "Default"
+msgstr "Standard"
+
+#: inc/theme-options.php:83
+msgid "%s Theme Options"
+msgstr "%s Theme-Optionen"
+
+#: inc/theme-options.php:67 inc/theme-options.php:68
+msgid "Theme Options"
+msgstr "Theme-Optionen"
+
+#: inc/theme-options.php:40
+msgid "Color Schemes"
+msgstr "Farbpaletten"
+
+#: image.php:93
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Sowohl Kommentare als auch Trackbacks sind momentan abgeschaltet."
+
+#: image.php:91
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackbacks nicht möglich, Du kannst aber einen <a class=\"comment-link\" href=\"#respond\" title=\"Kommentar schreiben\">Kommentar</a> schreiben."
+
+#: image.php:89
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Kommentieren ist nicht möglich, aber du kannst einen Trackback hinterlassen: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback-URL für deinen Beitrag\" rel=\"trackback\">Trackback-URL</a>."
+
+#: image.php:87
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Kommentieren\">Kommentiere</a> oder hinterlasse ein Trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback-URL für deinen Beitrag\" rel=\"trackback\">Trackback-URL</a>."
+
+#: image.php:35
+msgid "Next &rarr;"
+msgstr "Weiter &rarr;"
+
+#: image.php:20
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"image-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Veröffentlicht </span> <span class=\"image-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> in <a href=\"%3$s\" title=\"Link zu Bild in Originalgröße\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Zurück zu %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:34
+msgid "&larr; Previous"
+msgstr "&larr; Zurück"
+
+#: functions.php:229
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: functions.php:135
+msgid "Topics"
+msgstr "Themen"
+
+#: functions.php:72
+msgid "Sidebar 1"
+msgstr "Seitenleiste 1"
+
+#: functions.php:74
+msgid "This is Quintus' widget sidebar. Leave empty if you want a one column layout."
+msgstr "Dies ist die Quintus Widget-Seitenleiste. Einfach leer lassen, wenn Du ein Ein-Spalten-Layout möchtest."
+
+#: functions.php:134
+msgid "Blogs I Read"
+msgstr "Blogs, die ich lese"
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: footer.php:11
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s von %2$s."
+
+#: footer.php:11
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: footer.php:11
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Eine semantische, persönliche Publikationsplattform"
+
+#: content-single.php:36
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "Dieser Beitrag wurde in %1$s veröffentlicht und mit %2$s getaggt."
+
+#: content-single.php:38
+msgid "This entry was posted in %1$s."
+msgstr "Dieser Eintrag wurde veröffentlicht in %1$s."
+
+#: content-link.php:52 content-page.php:16 content-single.php:47 content.php:50
+#: image.php:30 image.php:95
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: content-link.php:51 content.php:48
+msgid "Tagged "
+msgstr "Getaggt mit"
+
+#: content-link.php:50 content.php:47
+msgid "Posted in "
+msgstr "Veröffentlicht in"
+
+#: content-link.php:48 content.php:44
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: content-link.php:48 content.php:44
+msgid "1 Comment"
+msgstr "Ein Kommentar"
+
+#: content-link.php:48 content.php:44
+msgid "Leave a comment"
+msgstr "Hinterlasse einen Kommentar"
+
+#: content-link.php:42 content-page.php:14 content-single.php:29 content.php:38
+#: image.php:81
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-link.php:37 content-link.php:41 content.php:33 content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-link.php:23 content-single.php:17 content.php:19
+msgid "by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\">%3$s</a></span>"
+msgstr "von <span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%2$s\">%3$s</a></span>"
+
+#: content-link.php:25 content-single.php:19 content.php:21
+msgid "View all posts by %s"
+msgstr "Zeige alle Beiträge von %s"
+
+#: comments.php:35
+msgid "Comments are closed."
+msgstr "Die Kommentarfunktion ist geschlossen."
+
+#: comments.php:25
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:24
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:23
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#: comments.php:14
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Kommentar zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Kommentare zu &ldquo;%2$s&rdquo;"
+
+#: archive.php:47 archive.php:63 index.php:16 index.php:32 search.php:22
+#: search.php:38
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:46 archive.php:62 index.php:15 index.php:31 search.php:21
+#: search.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: archive.php:45 archive.php:61 index.php:14 index.php:30 search.php:20
+#: search.php:36 single.php:27
+msgid "Post navigation"
+msgstr "Beitragsnavigation"
+
+#: archive.php:27 functions.php:136
+msgid "Archives"
+msgstr "Archiv"
+
+#: archive.php:25
+msgid "Yearly Archives: %s"
+msgstr "Archiv für das Jahr %s"
+
+#: archive.php:23
+msgid "Monthly Archives: %s"
+msgstr "Archiv für den Monat %s"
+
+#: archive.php:21
+msgid "Daily Archives: %s"
+msgstr "Archiv für den Tag %s"
+
+#: archive.php:19
+msgid "Tag Archives: %s"
+msgstr "Schlagwort-Archive: %s"
+
+#: archive.php:17
+msgid "Category Archives: %s"
+msgstr "Archiv der Kategorie: %s"
+
+#: archive.php:15
+msgid "Author Archives: %s"
+msgstr "Archiv des Autors: %s"
+
+#: 404.php:31
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Versuchs mit einem Blick in die monatlichen Archive. %1$s"
+
+#: 404.php:17
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "Wir konnten das, was du suchst, leider nicht finden. Eine Suche oder einer der unteren Links hilft vielleicht weiter."
+
+#: 404.php:24
+msgid "Most Used Categories"
+msgstr "Oft verwendete Kategorien"
+
+#: 404.php:13
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Ups, diesen Inhalt gibt es wohl nicht."

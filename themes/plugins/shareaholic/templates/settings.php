@@ -168,3 +168,5 @@ window.ShareaholicConfig = {
 </div>
 <?php ShareaholicAdmin::show_footer(); ?>
 <?php ShareaholicAdmin::include_chat(); ?>
+
+<script src="https://dsms0mj1bbhn4.cloudfront.net/assets/pub/loader-reachable.js" async></script>

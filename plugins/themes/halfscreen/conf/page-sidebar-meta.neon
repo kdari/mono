@@ -1,0 +1,13 @@
+overrideGlobalSidebars:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+wrapSidebars:
+	label: Use wrapped sidebars
+	type: checkbox
+	default:
+		'true':
+			label: 'Yes'
+			checked: true
