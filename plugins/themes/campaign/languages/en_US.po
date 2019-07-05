@@ -1,0 +1,366 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jake Caputo <jake@designcrumbs.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. Text in function
+#: campaign/archive.php:30 campaign/loop-post.php:23 campaign/single.php:29
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: campaign/archive.php:66 campaign/search.php:11 campaign/index.php:10
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#. Text in function
+#: campaign/archive.php:30 campaign/loop-post.php:23 campaign/single.php:29
+msgid "0 Comments"
+msgstr ""
+
+#. Text in function
+#: campaign/archive.php:30 campaign/loop-post.php:23 campaign/single.php:29
+msgid "1 Comment"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:506
+msgid ""
+"A widget that will display a specified user&#39;s gravatar, display name, "
+"bio, and link to their author post archive."
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Arbitrary text or HTML along with a button."
+msgstr ""
+
+#. Text in echo
+#: campaign/archive.php:33 campaign/loop-post.php:26 campaign/single.php:32
+msgid "Author"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Blue"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Button Color:"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Button Link (including http):"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Button Text:"
+msgstr ""
+
+#. Text in echo
+#: campaign/footer.php:43
+msgid "Campaign Theme"
+msgstr ""
+
+#. Text in echo
+#: campaign/archive.php:37 campaign/loop-post.php:30 campaign/single.php:36
+msgid "Category"
+msgstr ""
+
+#. Text in echo
+#: campaign/archive.php:29 campaign/loop-post.php:22 campaign/single.php:28
+msgid "Comments"
+msgstr ""
+
+#. Text in function
+#: campaign/archive.php:30 campaign/loop-post.php:23 campaign/single.php:29
+msgid "Comments Closed"
+msgstr ""
+
+#. Text in echo
+#: campaign/comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Company:"
+msgstr ""
+
+#. Text in echo
+#: campaign/footer.php:43
+msgid "Design Crumbs"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Displays a testimonial along with a name, company, and URL."
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:939
+msgid "Edit"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:457
+msgid "Extra profile information"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:506
+msgid "Featured User"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Gray"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Line 1:"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Line 2:"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Line 3:"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Line 4:"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Line 5:"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:496
+msgid "My Twitter"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:498
+msgid "My Website"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Name:"
+msgstr ""
+
+#. Text in function
+#: campaign/archive.php:67 campaign/search.php:12 campaign/index.php:11
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#. Text in function
+#: campaign/header.php:5
+msgid "Page %s"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:936
+msgid "Permalink"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:466
+msgid "Please enter your Twitter username without the @."
+msgstr ""
+
+#. Text in echo
+#: campaign/index.php:17 campaign/404.php:5
+msgid "Please try one of the links on top."
+msgstr ""
+
+#. Text in echo
+#: campaign/archive.php:25 campaign/loop-post.php:18 campaign/single.php:24
+msgid "Post Date"
+msgstr ""
+
+#. Text in echo
+#: campaign/archive.php:57 campaign/loop-post.php:50
+msgid "Read More"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Red"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:939
+msgid "Reply"
+msgstr ""
+
+#. Text in echo
+#: campaign/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: campaign/search.php:3
+msgid "Search results for"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:609
+msgid "Select User:"
+msgstr ""
+
+#. Text in echo
+#: campaign/archive.php:41 campaign/loop-post.php:34 campaign/single.php:40
+msgid "Share"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Slab Text"
+msgstr ""
+
+#. Text in echo
+#: campaign/archive.php:72
+msgid "Sorry!"
+msgstr ""
+
+#. Text in echo
+#: campaign/single.php:73
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#. Text in echo
+#: campaign/404.php:4
+msgid "Sorry, we can't seem to find what you're looking for."
+msgstr ""
+
+#. Text in function
+#: campaign/single.php:60
+msgid "Tagged with "
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Testimonial"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid ""
+"Text headline that forms the area it&#39;s in to make some cool typography."
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Text with a Button"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "The Message:"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "The Testimonial:"
+msgstr ""
+
+#. Text in echo
+#: campaign/archive.php:74
+msgid "There are no posts in this category yet. Please try another link."
+msgstr ""
+
+#. Text in echo
+#: campaign/comments.php:9
+msgid "This post is password protected. Enter the password to view comments"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:488
+msgid "This post was written by"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Title (Optional):"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:946
+msgid "Trackback from"
+msgstr ""
+
+#. Text in echo
+#: campaign/comments.php:37
+msgid "Trackbacks"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:462
+msgid "Twitter"
+msgstr ""
+
+#. Text in function
+#: campaign/functions.php:622
+msgid "URL:"
+msgstr ""
+
+#. Text in echo
+#: campaign/index.php:16
+msgid "We can't find what you're looking for."
+msgstr ""
+
+#. Text in echo
+#: campaign/search.php:19
+msgid "We're sorry, but"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:603
+msgid "Widget Title:"
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:932
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#. Text in echo
+#: campaign/footer.php:43
+msgid "by"
+msgstr ""
+
+#. Text in echo
+#: campaign/search.php:19
+msgid ""
+"returns no results. Please try your search again, or navigate around the "
+"site with the links on top."
+msgstr ""
+
+#. Text in echo
+#: campaign/functions.php:930
+msgid "says"
+msgstr ""

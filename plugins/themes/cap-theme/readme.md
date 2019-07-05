@@ -1,0 +1,1 @@
+A fairly generic child theme based on twenty-eleven. Done in a rush. Not a reference for best practices. :)

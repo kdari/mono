@@ -1,0 +1,298 @@
+/*
+Theme Name: Fotofolio
+Theme URI: http://pupungbp.erastica.com/
+Description: Wordpress Theme for Photography lovers, Graphic Designers, of even a Drawer. By: Pupung Budi Purnama.
+Version: 1.0
+Author: Pupung Budi Purnama
+Tags: White, Gray, 2 Column
+/*
+/* GLOBAL CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+	background: #fff;
+	color: #505050;
+}
+h1, h2, h3, h4 {
+	font-size: 1.6em;
+}
+.ffix {
+	clear: both;
+}
+a {
+	color: #505050;
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+
+/* TYPOGRAPHY */
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 62.5%;
+	padding: 30px 0;
+}
+#header h1 {
+	font-size: 1.4em;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 4.4em;
+}
+.legend h2, .legend h3, #data h2, .news h2 {
+	font: bold 1.2em Helvetica, Arial, sans-serif;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+}
+.legend h3 {
+	font-size: 2.4em;
+	letter-spacing: 0;
+}
+.notes a {
+	border-bottom: 1px dotted #333;
+}
+.author {
+	font-size: 1.2em;
+}
+.author strong {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.notes {
+	font-size: 1.3em;
+	line-height: 1.6em;
+}
+.page .notes {
+	width: 500px;
+}
+.notes p {
+}
+#data h2 {
+	color: #352511;
+	padding-left: 8px;
+}
+#data ul li, #data .resume p {
+	font-size: 1.3em;
+	color: #fff;
+	line-height: 1.6em;
+}
+#footer {
+	font-size: 0.9em;
+	font-family: Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+/* LAYOUT */
+#container {
+	width: 820px;
+	margin: 0 auto;
+	text-align: left;
+}
+#header {
+	
+}
+#header h1 {
+	
+}
+#header h1 a {
+	display: block;
+	background: url(images/logo.png) no-repeat top left;
+	width: 128px;
+	height: 62px;
+	float: left;
+	text-indent: -7777px;
+}
+.featured {
+	padding-top: 15px;
+	width: 820px;
+	padding-bottom: 50px;
+	min-height: 300px;
+}
+.featured img {
+	padding: 5px;
+	background: #ebebeb;
+}
+.photo {
+	float: left;
+}
+.shadow-left {
+	background: url(images/shadow-left.png) no-repeat left bottom;
+}
+.shadow-right {
+	background: url(images/shadow-right.png) no-repeat right bottom;
+	padding: 15px;
+}
+ul#photos {
+	list-style: none;
+	width: 490px;
+	height: 285px;
+}
+.legend {
+	float: left;
+	text-align: left;
+	width: 280px;
+	padding-top: 15px;
+}
+.legend h2 {
+	padding-bottom: 20px;
+}
+.legend h3 {
+	
+}
+.notes p {
+	padding-top: 20px;
+}
+.news h2 {
+	padding-top: 20px;
+}
+
+#data {
+	background: #a69785;
+	text-align: center;
+}
+#data .container {
+	text-align: left;
+	margin: 0 auto;
+	width: 820px;
+	background: url(images/stripe.png) repeat-y 410px 0;
+}
+#data .container .top {
+	background: url(images/arrow-top.png) no-repeat 402px 0;
+	height: 9px;
+	clear: both;
+}
+#data .container .bottom {
+	background: url(images/arrow-bottom.png) no-repeat 402px 0;
+	height: 9px;
+	clear: both;
+}
+#data .about {
+	padding: 25px 0;
+	width: 150px;
+}
+#data .about, #data .category {
+	float: left;
+	padding-left: 5px;
+}
+#data .about li {
+	clear: both;
+}
+#data .category {
+	padding: 25px 0;
+	width: 250px;
+}
+#data .category li {
+	width: 100px;
+}
+#data ul {
+	list-style: none;
+	padding-top: 10px;
+}
+#data ul li {
+	float: left;
+}
+#data ul li a {
+	padding-left: 8px;
+}
+#data ul li a:hover, .current-cat, .active {
+	background: url(images/current.png) no-repeat left center;
+}
+#data .resume {
+	width: 380px;
+	float: right;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#data .resume img {
+	padding: 3px;
+	float: left;
+	background: #7b6851;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+#data .resume h2 {
+	padding-bottom: 10px;
+}
+#data .resume p {
+	float: right;
+	width: 310px;
+}
+#data a {
+	color: #fff;
+}
+#data .resume a {
+	border-bottom: 1px dotted #efefef;
+}
+#footer {
+	padding: 15px;
+}
+div.category-list {
+	width: 400px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+div.category-list .pic, div.news .pic {
+	width: 80px;
+	height: 80px;
+	background: #000;
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+.pic a img {
+	border: none;
+}
+.pic a:hover img {
+	background: #666;
+}
+div.news .pic {
+	width: 50px;
+	height: 50px;
+}
+
+/*paging*/
+.navigation {
+	clear: both;
+	font: bold 1em Arial, Helvetica, Verdana, Sans-Serif;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding-right: 44px;
+}
+.alignleft {
+	text-align: left;
+}
+.alignright {
+	text-align: right;
+}
+.navigation .alignleft {
+	width: 40%;
+	float: left;
+}
+.navigation .alignright {
+	width: 40%;
+	float: right;
+}
+.single .navigation {
+	width: 500px;
+	padding: 0 10px;
+}
+
+/* CSS: (StyleSheet) */
+
+#imgPreviewWithStyles {
+    background: #666;
+    padding: 5px;
+    z-index: 999;
+    border: none;
+}
+
+/* Text below image */
+#imgPreviewWithStyles span {
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px 0 3px 0;
+}

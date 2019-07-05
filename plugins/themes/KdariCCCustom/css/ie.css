@@ -1,0 +1,59 @@
+/*universals*/
+	a {color:#3992bc;font-weight:bold;} 
+	#socialize a{font-weight:normal}
+
+/* Global Navigation */
+
+	nav ul li{position:relative;z-index:9999;}
+	nav ul{position:absolute;z-index:9999;}
+	nav ul li ul li{text-shadow:none;display:block;float:left;clear:both;width:110px;font-family:'SkolarCyrillicBold';font-size:12px;background:none;}
+	nav ul li ul{width:166px;display:none;background:#fff;position:absolute;text-align:left;z-index:9999;padding:20px 0;margin:18px 0 0 -25px;background:url('../_img/bg/dd-middle.png') repeat-y top left;}
+	header.global nav ul li ul li.first-item{background:url('../_img/bg/dd-top.png') no-repeat top left;display:block;margin:-43px 0 0 0;float:left;position:relative;z-index:9999;width:110px;}
+	header.global nav ul li ul li.first-item a{color:#1a242b;display:block;padding:50px 0 10px;}
+	header.global nav ul li ul li.last-item{background:url('../_img/bg/dd-bottom.png') no-repeat bottom left;display:block;margin:0 0 -31px;float:left;width:166px;}
+	header.global nav ul li ul li.last-item a{color:#1a242b;display:block;padding:13px 0 26px;border:none;}
+	nav ul.global {top: 33px;}
+
+
+/* Reusable Elements */
+
+	.read-arrow{top:-15px; left: 3px;}
+
+	#page{margin:20px auto;width:960px;z-index: 0; position: relative;}
+	
+	#new-here a {margin: 0 0 12px;}
+	#sunday-services {margin:3px 12px 12px 12px}
+
+/* Homepage */
+
+	#carousel{background:url('../_img/bg/thumbnail-bg.jpg') repeat #364352; z-index: 0;}
+	#slides{float:left;width:700px;}
+
+	#new-here a{left:0px;}
+
+	#call-to-action li aside{left:0px;}
+
+	#latest-download .container{padding:12px 0 0 0;float:left;width:458px;}
+	#latest-download .details{width:205px;line-height:18px;float:left;}
+	#latest-download .options{width:75px;float:left; position: relative; top: -10px;}
+	#latest-download h2,#latest-download .details,#latest-download .options{float:left;margin:9px 0 0 0;font-size:11px;}
+	#latest-download .title{width:145px;float:left;}
+	#latest-download h2{background:url("../_img/icon/ipod.jpg") no-repeat scroll 0 3px transparent;line-height:18px;margin:10px 0 0 27px;padding:0 0 6px 27px;}
+	#latest-download .listen{float: left; background:url('../_img/icon/listen.jpg') no-repeat 0 2px;margin:0 0 0px 0;}
+	#latest-download .download{float: left; clear: both; background:url('../_img/icon/download.jpg') no-repeat 0px 1px;left:-1px;position:relative;}
+
+
+
+/* Sidebar */
+	#sidebar {word-spacing: 2px;}
+	#sidebar #advertisements { float: left; width: 320px; position: relative; left: -20px; margin: 0 0 35px 0;}
+	#sidebar #latest-sermon h3 { background:url('../_img/bg/sidebar/heading-sermon.jpg') no-repeat 0 7px; padding: 1px 0 24px 29px; width: 312px; }
+
+/* Single Post */
+
+	#featured-img{position:relative;margin:0 0 22px; float: left; clear: both; width: 620px; display: block;}
+	#featured-img aside{background:url('../_img/bg/single/feature-caption.png') no-repeat top left;width:459px;height:46px;position:absolute;bottom:29px; left:0;}
+
+/* make menu work in IE */
+	nav ul li ul{ background-color: #fff; border: 0 5px 5px 5px #aba79a solid; width: 156px; }
+	header.global ul li ul > li:first-child{background:url('_img/bg/dd-top-ie.png') no-repeat top left; margin:-43px 0 0 -5px;} /* from 201 */

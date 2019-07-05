@@ -1,0 +1,457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+
+#. Text in echo
+#: 404.php:25
+msgid ""
+" Oooooops... it looks like the page you were looking for does not exist "
+"anymore or is temporaril"
+msgstr ""
+
+#. Text in function
+#: loop.php:52 single.php:56
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: functions.php:225
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: functions.php:226
+msgid "(Edit)"
+msgstr ""
+
+#. Text in function
+#: loop.php:52 single.php:56
+msgid "0 Comments"
+msgstr ""
+
+#. Text in function
+#: loop.php:52 single.php:56
+msgid "1 Comment"
+msgstr ""
+
+#. Text in echo
+#: 404.php:23
+msgid "404 Error - Page not found"
+msgstr ""
+
+#. Text in function
+#: comments.php:30 comments.php:41
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "A custom widget for displaying your latest tweets."
+msgstr ""
+
+#. Text in echo
+#: loop.php:14
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#. Text in function
+#: post-types.php:284
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:266 post-types.php:284
+msgid "Category"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:533
+msgid "Category (Leave Blank to show from all categories)"
+msgstr ""
+
+#. Text in echo
+#: comments.php:96
+msgid "Comment"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:423
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Contact Us"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Contact widget"
+msgstr ""
+
+#. Text in function
+#: widgets.php:614
+msgid "Display images from flickr"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Display latest blog posts"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Display latest works (Portoflio)"
+msgstr ""
+
+#. Text in echo
+#: contact-template.php:136
+msgid "E-mail is required"
+msgstr ""
+
+#. Text in function
+#: post-types.php:284
+msgid "Edit Work"
+msgstr ""
+
+#. Text in echo
+#: comments.php:86 contact-template.php:74 widgets.php:536
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:606
+msgid "Email Address:<br />"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:79
+msgid "Flickr ID:"
+msgstr ""
+
+#. Text in echo
+#: comments.php:77
+msgid "Log out"
+msgstr ""
+
+#. Text in echo
+#: comments.php:75
+msgid "Logged in as"
+msgstr ""
+
+#. Text in echo
+#: contact-template.php:80 widgets.php:536
+msgid "Message"
+msgstr ""
+
+#. Text in echo
+#: contact-template.php:137
+msgid "Message is required"
+msgstr ""
+
+#. Text in echo
+#: comments.php:82 contact-template.php:69 widgets.php:536
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: contact-template.php:135
+msgid "Name is required"
+msgstr ""
+
+#. Text in function
+#: comments.php:31 comments.php:42
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:67
+msgid ""
+"No categories selected. To fix this, please login to your WP Admin area and "
+"se"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:437
+msgid "No image available"
+msgstr ""
+
+#. Text in echo
+#: loop.php:12
+msgid "Not Found"
+msgstr ""
+
+#. Text in echo
+#: search.php:28
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:528
+msgid "Number of Posts to show"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:84
+msgid "Number of photos:"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:170
+msgid "Number of tweets (Keep < 20)"
+msgstr ""
+
+#. Text in function
+#: loop.php:64
+msgid "Permalink to %1$s"
+msgstr ""
+
+#. Text in echo
+#: contact-template.php:136
+msgid "Please provide a valid e-mail"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:421
+msgid "Popular"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:422
+msgid "Recent"
+msgstr ""
+
+#. Text in echo
+#: comments.php:101 contact-template.php:88
+msgid "Reset"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Retrieve and display popular/latest posts/latest comments."
+msgstr ""
+
+#. Text in echo
+#: 404.php:28
+msgid "Return to previous page"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Reverence - Contact Form"
+msgstr ""
+
+#. Text in function
+#: widgets.php:614
+msgid "Reverence - Flickr images"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Reverence - Latest Tweets"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Reverence - Latest Works"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Reverence Latest Blog Posts"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Reverence Popular/Latest posts/Last comments"
+msgstr ""
+
+#. Text in function
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in echo
+#: searchform.php:3
+msgid "Search terms"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Send message"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:43 portfolio-template.php:51
+#: taxonomy-portfolio_category.php:36
+msgid "Show all"
+msgstr ""
+
+#. Text in echo
+#: search.php:30
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Text in echo
+#: comments.php:100 contact-template.php:87
+msgid "Submit"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:610
+msgid "Success Message:<br />"
+msgstr ""
+
+#. Text in function
+#: widgets.php:536
+msgid "Thank you, e-mail sent."
+msgstr ""
+
+#. Text in echo
+#: sidebar.php:3
+msgid "There Is No Sidebar Widgets Yet"
+msgstr ""
+
+#. Text in echo
+#: contact-template.php:64
+msgid "There was an error submitting the form."
+msgstr ""
+
+#. Text in echo
+#: comments.php:8
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#. Text in echo
+#: widgets.php:523
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:74 widgets.php:160
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: widgets.php:602
+msgid "Title:<br />"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:312 taxonomy-portfolio_category.php:276
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your Flash plugin."
+msgstr ""
+
+#. Text in echo
+#: widgets.php:165
+msgid "Twitter Username (e.g., weblusive)"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:311 taxonomy-portfolio_category.php:275
+msgid "Update Required"
+msgstr ""
+
+#. Text in echo
+#: comments.php:90
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: functions.php:219
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: comments.php:61
+msgid "Your email address will not be shared or published."
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:212 taxonomy-portfolio_category.php:176
+msgid "full screen"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:206 portfolio-template.php:284
+#: taxonomy-portfolio_category.php:170 taxonomy-portfolio_category.php:248
+msgid "max volume"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:204 portfolio-template.php:282
+#: taxonomy-portfolio_category.php:168 taxonomy-portfolio_category.php:246
+msgid "mute"
+msgstr ""
+
+#. Text in function
+#: widgets.php:493
+msgid "on"
+msgstr ""
+
+#. Text in function
+#: widgets.php:488
+msgid "on "
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:202 portfolio-template.php:280
+#: taxonomy-portfolio_category.php:166 taxonomy-portfolio_category.php:244
+msgid "pause"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:189 portfolio-template.php:201
+#: portfolio-template.php:279 taxonomy-portfolio_category.php:153
+#: taxonomy-portfolio_category.php:165 taxonomy-portfolio_category.php:243
+msgid "play"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:214 portfolio-template.php:299
+#: taxonomy-portfolio_category.php:178 taxonomy-portfolio_category.php:263
+msgid "repeat"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:215 portfolio-template.php:300
+#: taxonomy-portfolio_category.php:179 taxonomy-portfolio_category.php:264
+msgid "repeat off"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:213 taxonomy-portfolio_category.php:177
+msgid "restore screen"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:203 portfolio-template.php:281
+#: taxonomy-portfolio_category.php:167 taxonomy-portfolio_category.php:245
+msgid "stop"
+msgstr ""
+
+#. Text in echo
+#: portfolio-template.php:205 portfolio-template.php:283
+#: taxonomy-portfolio_category.php:169 taxonomy-portfolio_category.php:247
+msgid "unmute"
+msgstr ""
